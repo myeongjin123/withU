@@ -12,7 +12,7 @@
 	<div class="do-del" align="center">
 		<h2>게시글 삭제</h2>
 		<form action="BoardDeleteProcCon.do" method="post">
-		<a class="do-home" href="BoardListCon.do"><i class="fa-solid fa-house-chimney"></i></a>
+		<a class="do-home you" href="BoardListCon.do"><i class="fa-solid fa-house-chimney"></i></a>
 		
 			<div class="container">
 				<div class="do-cpw">

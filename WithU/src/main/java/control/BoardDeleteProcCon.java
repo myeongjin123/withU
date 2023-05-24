@@ -50,7 +50,6 @@ public class BoardDeleteProcCon extends HttpServlet {
 			response.getWriter().print("<script>alert('비밀번호가 틀렸습니다.'); history.back();</script>");
 		}
 	}
-
 }
 
 
