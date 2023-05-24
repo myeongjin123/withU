@@ -43,23 +43,6 @@ $(document).ready(function() {
       $(".tab_cont > div").eq(idx).show();
     })
   });
-  
-  function checkid(){
-	const url = "checkid.jsp";
-	const width=500, height=350;
-	let left = (document.body.offsetWidth / 2) - (width / 2);
-	let top = (document.body.offsetHeight / 2) - (height);
-	left += window.screenLeft;
-	
-	window.open(
-		url, 
-		"popup", 
-		`width=${width}, 
-		 height=${height}, 
-		 left=${left}, 
-		 top=${top}`
-    );
-}
 
 // function fadeInOut(){
 //     $('.do-slide img:eq(0)')
@@ -103,6 +86,7 @@ function sPostcode() {
                 //document.getElementById("detailaddr").focus();
             }
         }).open();
+
 }
 
 function registerJS(){
@@ -155,11 +139,6 @@ function registerJS(){
 		postcode.focus();
 		return false;
 	}
-	else if(address.value==""){
-		alert("상세주소를 입력하세요.");
-		detailaddr.focus();
-		return false;
-	}
 	else if(detailaddr.value==""){
 		alert("상세주소를 입력하세요.");
 		detailaddr.focus();
@@ -176,6 +155,8 @@ function registerJS(){
 		return false;
 	}
 	//이상이 없을 경우
-	document.registerform.submit();
+	document.register.submit();
 	
-}
+}        
+
+
