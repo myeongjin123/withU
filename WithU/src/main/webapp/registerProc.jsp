@@ -19,5 +19,6 @@
 	response.sendRedirect("index.jsp");
 %>
 
+오라클 완료
 </body>
 </html>
