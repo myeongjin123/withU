@@ -20,8 +20,8 @@ public class UserDAO {
 	public void getCon() {
 		try {
 			String id = "root";
-			String pass = "qwer7878";
-			String url = "jdbc:mysql://localhost:3306/tosun";
+			String pass = "!+(Ye:m6V;t;";
+			String url = "jdbc:mysql://13.124.74.6:3306/withu";
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url, id, pass);
@@ -81,16 +81,31 @@ public class UserDAO {
 			return -1; //오류시
 		}
 		
+		
+		
+		// 로그인 처리
 		public boolean isRightUser(UserBean userbean) {
 			getCon();
 			boolean isLoginSuccess = false;
 			
 			try {
 				String sql = "select id from user where id = ? and pass = ?";
+				pstmt = con.prepareStatement(sql);
+				pstmt.setString(1, userbean.getUserid());
+				pstmt.setString(2, userbean.getUserpass());
+				rs = pstmt.executeQuery();
 				
+				while (rs.next()) {
+					isLoginSuccess = true;
+				}
+				
+				con.close();
 			} catch (Exception e) {
 				e.printStackTrace();
+				System.out.println("sql 오류 - isRightUser(로그인 처리)");
 			}
+			
+			return isLoginSuccess;
 			
 		}
 		
