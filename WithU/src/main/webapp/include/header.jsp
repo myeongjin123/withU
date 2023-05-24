@@ -30,7 +30,7 @@
                 <button type="button" id="button">X</button>
                 <h1>로그인</h1>
 
-                <form>
+                <form action="loginProc.jsp" method="post">
                     <div class="userid">
                         <input type="text" name="id" placeholder="아이디">
                     </div>
