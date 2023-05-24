@@ -1,101 +1,58 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>게시글 쓰기</title>
-<style>
-	.board-write-jeon{
-		border: 1px solid #000;
-		width: 800px;
-		height: 600px;
-		border-radius: 5px;
-		margin: 0 auto;
-	}
-	
-	.board-write-jeon h2{
-		text-align: center;
-		background: #00913e;
-		padding: 20px 0px;
-		margin: 0;
-	}
-	
-	.board-write-info-jeon{
-		border-bottom: 1px solid #000;
-		width: 800px;
-		height: 150px;
-	}
-	
-	.board-write-info-jeon div span{
-		display: inline-block;
-		width: 80px;
-		height: 30px;
-		text-align: center;
-		padding-top: 5px;
-	}
-	
-	.board-write-content-jeon{
-		width: 780px;
-		height: 320px;
-		margin-top: 5px;
-		padding: 0 10px;
-	}
-	
-	.board-write-button-jeon{
-		float: right;
-		margin: 10px 10px 0px 0px;
-	}
-	
-	.board-write-button-jeon input{
-		background: #fff;
-		border: 1px solid #000;
-		padding: 5px 10px;
-		transition: all 0.3s;
-	}
-	
-	.board-write-button-jeon input:hover{
-		background: #327841;
-		color: #fff;
-	}
-	
-	.board-write-content-jeon textarea{
-		border: none;
-		padding: 20px;
-	}
-</style>
+<title>게시글 작성</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/Boardwrite.css">
 </head>
 <body>
-	<div class="board-write-jeon">
-		<h2>게시판 글쓰기</h2>
+
+	<div class="container">
+	<div class="do-co">
+		
 		<form action="BoardWriteProcCon.do" method="post">
-		<div class="board-write-info-jeon">
-			<div>
+			<h1>게시글 작성</h1>
+			<a class="do-home" href="BoardListCon.do"><i class="fa-solid fa-house-chimney"></i></a>
+			<button class="do-reset" type="reset"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+			<div class="do-title">
 				<span>제목</span>
 				<input type="text" name="subject" size="90">
 			</div>
-			<div>
+			<div class="do-writer">
 				<span>작성자</span>
 				<input type="text" name="writer" size="30">
 			</div>
-			<div>
-				<span>아이디</span>
-				<input type="text" name="userid" size="30">
+			<div class="do-user">
+				<div class="do-u">
+					<div class="do-id">
+						<span>아이디</span>
+						<input type="text" name="userid">
+					</div>
+					<div class="do-pw">
+						<span>비밀번호</span>
+						<input type="password" name="userpass">
+					</div>
+				</div>
 			</div>
-			<div>
-				<span>비밀번호</span>
-				<input type="password" name="userpass" size="30">
+
+		<div class="do-content">
+			<div class="do-con">
+				<div class="do-item">내용</div>
+				<div><textarea rows="20" cols="100" name="content" id="text"></textarea></div>
 			</div>
 		</div>
-		<div class="board-write-content-jeon"><div>내용:</div> 
-			<textarea rows="17" cols="100" name="content"></textarea>
-		</div>
-		<div class="board-write-button-jeon">
-			<input type="button" value="목 록" onclick="location.href='BoardListCon.do'">
-			<input type="submit" value="글쓰기">
-			<input type="reset" value="다시쓰기">
+		<div class="do-button">
+			<input class="do-write" type="submit" value="등 록">
+			<input class="do-cancel" type="button" value="취 소" onclick="javascript:history.back(-1)">
+			<!-- <input class="do-reset" type="reset" value="다시쓰기"> -->
 		</div>
 	</form>
 	</div>
+	</div>
+
 </body>
 </html>

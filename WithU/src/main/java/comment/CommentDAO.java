@@ -26,10 +26,9 @@ public class CommentDAO {
 	
 	public CommentDAO() {
 		try {
-			String dbURL = "jdbc:mysql://localhost:3306/withu?autoReconnect=true";
-			String dbID = "root";  
-			String dbPassword = "0731";
-			//String dbPassword = "dkdls4862";
+			String dbID = "root";
+	        String dbPassword = "!+(Ye:m6V;t;";
+	        String dbURL = "jdbc:mysql://13.124.74.6:3306/withu";
 
 
 			Class.forName("com.mysql.cj.jdbc.Driver");

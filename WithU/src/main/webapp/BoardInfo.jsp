@@ -8,222 +8,51 @@
     pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>게시판 내용 보기</title>
-<style>
-*{box-sizing: border-box;}
-
-.board-jeon{
-	width: 800px;
-	height: 600px;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	margin: 0 auto;
-}
-
-.board-info-jeon{
-	background: #fff;
-	width: 780px;
-	height: 130px;
-	border: 1px solid #327841;
-	border-radius: 5px;
-	margin: 10px;
-}
-
-.board-info-jeon h2{
-	margin-top: 30px;
-	text-align: center;
-}
-
-.info-jeon{
-	float: right;
-	margin-right: 40px;
-}
-
-.board-context-jeon{
-	background: #fff;
-	width: 780px;
-	height: 380px;
-	border: 1px solid #327841;
-	border-radius: 5px;
-	margin: 10px;
-}
-
-.board-context-jeon p{
-	padding: 10px 20px;
-}
-
-.board-button-jeon{
-	float: right;
-	margin: 10px 10px 0px 0px;
-}
-
-.board-button-jeon input{
-	background: #fff;
-	border: 1px solid #000;
-	padding: 5px 10px;
-	transition: all 0.3s;
-}
-
-.board-button-jeon input:hover{
-	background: #327841;
-	color: #fff;
-}
-
-/*-----------------------------------comment----------------------------*/
-
-.comment{
-	width: 800px;
-	height: 350px;
-	margin: 10px auto;
-	border: 1px solid #000;
-
-}
-
-.coment-head{
-	margin: 30px 60px;
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.comment-info{
-	width: 500px;
-	height: 30px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.comment-info div input{
-	border: none;
-	border-bottom: 1px solid #aaa;
-}
-
-.comment-waring{
-	font-size: 14px;
-	color: #aaa;
-	margin-left: 200px;
-}
-
-.comment-content{
-	width: 600px;
-	height: 100px;
-	margin: 0 auto;
-	margin-top: 20px;
-	display: flex;
-	flex-direction: row;
-}
-
-.comment-content span{
-	display: inline-block;
-	margin-top: 25px;
-	margin-left: 40px;
-}
-
-.comment-content textarea{
-	margin-left: 20px;
-}
-
-#commentok, #commentno{
-	padding: 7px 15px;
-	background: #eee;
-	border: none;
-	border-radius: 3px;
-}
-
-#commentok:hover, 
-#commentno:hover{
-	background: #94b7f7;
-}
-
-.comment-button{
-	width: 180px;
-	height: 40px;
-	margin: 10px auto;
-}
-
-
-
-/*-----------------------------------comment-list----------------------------*/
-
-.commentList{
-	width: 600px;
-	height: 150px;
-	border: 1px solid #999;
-}
-
-.name{
-	display: inline-block;
-	height: 20px;
-	font-weight: bold;
-	padding: 10px;
-}
-
-.rdate{
-	display: inline-block;
-	height: 20px;
-	padding-left: 20px;
-}
-
-.update {
-	float: right;
-	padding: 10px;
-}
-
-.update a{
-	color: blue;
-	text-decoration: none;
-}
-
-.content{
-	padding-top: 10px;
-	margin: 10px;
-	border-top: 1px dashed #ccc;
-}
-
-.comment-list-container{
-	width: 600px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: row;
-}
-
-.arrow-turn-down-right{
-	width: 20px;
-	height: 100px;
-	font-size: 40px;
-	color: #000;
-	margin-right: 20px;
-}
-
-</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/BoardInfo.css">
 
 </head>
 <body>
 
-<div class="board-jeon">
-	<div class="board-info-jeon">
-		<h2>제목: ${bean.subject}</h2>
-		<div class="info-jeon">
-			<span>[${bean.num}번째 게시물]</span> 
-			<span>작성자 : ${bean.writer}</span> 
-			<span>작성일 : ${bean.wdate}</span> 
-			<span>조회수 : ${bean.readcount}</span>
+<div class="container">
+	<div class="do-co">
+		
+		<h1>게시판</h1>
+		<a class="do-home" href="BoardListCon.do"><i class="fa-solid fa-house-chimney"></i></a>
+		<div class="do-subject">
+			<div class="do-title">
+				<h2>${bean.subject}</h2>
+			</div>
+			<div class="do-info">
+				<div class="do-left-info">
+					<span>NO.${bean.num} / </span> 
+					<span>작성자 : ${bean.writer}</span> 
+				</div>
+				<div class="do-right-info">
+					<span>작성일 : ${bean.wdate.split(" ")[0]}</span> 
+					<span>조회수 : ${bean.readcount}</span>
+				</div>
+			</div>
 		</div>
-	</div>
+<%
+	pageContext.setAttribute("br", "<br/>");
+	pageContext.setAttribute("cn", "\n");
+%>
+		<div class="do-context">
+			<p>${fn:replace(bean.content, cn, br)}</p>
+		</div>
+		
+		<div class="do-button">
+			<input class="do-update" type="button" value="수 정" onclick="location.href='BoardUpdateCon.do?num=${bean.num}'">
+			<input class="do-del" type="button" value="삭 제" onclick="location.href='BoardDeleteCon.do?num=${bean.num}';">
+		</div>
 	
-	<div class="board-context-jeon">
-		<p>${bean.content}</p>
-	</div>
-	
-	<div class="board-button-jeon">
-		<input type="button" value="목 록" onclick="location.href='BoardListCon.do'">
-		<input type="button" value="수 정" onclick="location.href='BoardUpdateCon.do?num=${bean.num}'">
-		<input type="button" value="삭 제" onclick="location.href='BoardDeleteCon.do?num=${bean.num}'">
 	</div>
 </div>
 
