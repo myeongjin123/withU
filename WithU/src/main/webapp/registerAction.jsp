@@ -1,5 +1,5 @@
 <%@page import="userdb.UserBean"%>
-<%@page import="userdb.UserDAO, java.io.PrintWriter"%>
+<%@page import="userdb.UserDAO,userdb.UserBean, java.io.PrintWriter"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <% request.setCharacterEncoding("UTF-8"); %>
@@ -24,16 +24,25 @@
 		script.println("</script>");
 	}else{ */
 		UserDAO dao = new UserDAO();
-		int result = dao.idCheck(user);
+		UserBean bean = new UserBean();
+		int result = dao.idCheck(bean.getUserid());
+		PrintWriter script = response.getWriter();
 		if(result == 1){
-			PrintWriter script = response.getWriter();
 			script.println("<script>");
 			script.println("alert('이미 존재하는 아이디 입니당');");
 			script.println("history.back()");
 			script.println("</script>");
+		}else if(result == 0){
+			script.println("<script>");
+			script.println("alert('사용가능한 아이디 입니다');");
+			script.println("history.back()");
+			script.println("</script>");
+		}else{
+			script.println("<script>");
+			script.println("alert('알 수 없는 오류가 발생했습니다.');");
+			script.println("history.back()");
+			script.println("</script>");
 		}
-		
-/* 	} */
 
 %>
 

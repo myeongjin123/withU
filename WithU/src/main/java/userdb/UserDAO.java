@@ -21,7 +21,7 @@ public class UserDAO {
 		try {
 			String id = "root";
 			String pass = "qwer7878";
-			String url = "jdbc:mysql://localhost:3306/tosun";
+			String url = "jdbc:mysql://localhost:3306/withU";
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(url, id, pass);
@@ -63,7 +63,7 @@ public class UserDAO {
 		}
 		
 		public int idCheck(UserBean bean) {
-			String sql = "select*from users where userid =?";
+			String sql = "select * from user where userid =?";
 			try {
 				pstmt=con.prepareStatement(sql);
 				pstmt.setString(1, bean.getUserid());
