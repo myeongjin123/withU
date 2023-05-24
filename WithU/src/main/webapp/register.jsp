@@ -15,6 +15,7 @@ pageEncoding="UTF-8" %>
             <div class="block">
                 <label for="userid">아이디</label>
                 <input type="text" name="userid" id="userid"  >
+                <button type="button" onclick="checkid()">중복검사</button>
             </div>
             <div class="block">
                 <label for="userpass">비밀번호</label>
@@ -51,7 +52,7 @@ pageEncoding="UTF-8" %>
             </div>
             <div class="ok">
             <button type="reset">초기화</button>
-            <input type ="button" value ="submit" onClick ="registerJS();"/ > 
+            <button type ="button" value ="submit" onClick ="registerJS();" > 회원가입 </button>
             </div>
         </form>
     </div>
