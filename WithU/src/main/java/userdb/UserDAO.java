@@ -80,5 +80,20 @@ public class UserDAO {
 			}
 			return -1; //오류시
 		}
+		
+		public boolean isRightUser(UserBean userbean) {
+			getCon();
+			boolean isLoginSuccess = false;
+			
+			try {
+				String sql = "select id from user where id = ? and pass = ?";
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			
+		}
+		
+		
 }
 
