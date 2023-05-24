@@ -56,17 +56,20 @@ body {
 	text-align: left;
 }
 .do-context p {
-	margin: 0;
+	margin: 30px 0;
 	min-height: 200px;
+	
 }
 .do-button{
 	padding: 50px 0px 0px 0px;
+	margin-bottom: 120px;
 }
 .do-update,.do-del{
 	padding: 9px 33px;
 	background: #151534;
 	color: #fff;
 	font-weight: bold;
+	border: none;
 }
 .do-update:hover, .do-del:hover{
 	background: #94b7f7;
@@ -77,7 +80,8 @@ body {
 	width: 800px;
 	height: 350px;
 	margin: 10px auto;
-	border: 1px solid #000;
+	border: 1px solid #444;
+	border-radius: 3px;
 
 }
 
