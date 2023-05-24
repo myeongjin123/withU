@@ -87,6 +87,14 @@ public class UserDAO {
 			
 			try {
 				String sql = "select id from user where id = ? and pass = ?";
+				pstmt = con.prepareStatement(sql);
+				pstmt.setString(1, userbean.getUserid());
+				pstmt.setString(2, userbean.getUserpass());
+				rs = pstmt.executeQuery();
+				
+				while (rs.next()) {
+					
+				}
 				
 			} catch (Exception e) {
 				e.printStackTrace();
