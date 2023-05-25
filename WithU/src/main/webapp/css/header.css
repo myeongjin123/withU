@@ -69,7 +69,26 @@ ul.gnb-k li a:hover {
 .log{
     font-size: 16px;
     font-weight: 700;
+    position: absolute;
+    left: 170px;
+    top: 30px;
+    cursor: pointer;
 }
+
+.log:hover {
+	color: gray;
+}
+
+.regi {
+	position: absolute;
+    left: 260px;
+    top: 30px;
+}
+
+.regi:hover {
+	color: gray;
+}
+
 .log-bg{
     display: none;
     position: absolute;
@@ -164,4 +183,30 @@ ul.gnb-k li a:hover {
     height: 50px;
     margin-right: 30px;
     margin-left: 30px;
+}
+
+.welcome {
+	position: absolute;
+	left: 150px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+.logout {
+	position: absolute;
+	left: 350px;
+}
+
+.logout button {
+	border: none;
+	background: none;
+	color: #fff;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.logout button:hover {
+	color: gray;
 }

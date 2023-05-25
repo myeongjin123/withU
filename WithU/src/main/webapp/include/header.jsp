@@ -27,7 +27,7 @@
 	if (id == null) {
 %>
                 <div class="member">
-                    <a class="log">로그인</a>
+                    <a class="log">로그인 <i class="fa-solid fa-arrow-right-to-bracket"></i> </a>
         <div class="log-bg">
         <div class="log-content">
         <div class="log-form">
@@ -50,7 +50,7 @@
                 </form>
 
                 <div class="log-register">
-                    <a href="#">비밀번호 찾기</a>
+                    <a href="#">비밀번호 찾기</a>	
                     <a href="#">회원 가입</a>
                 </div>
 
@@ -71,19 +71,24 @@
         </div>
     </div>
     </div>
-                    <a href="register.jsp">회원가입</a>
+                    <a href="register.jsp" class="regi">회원가입 <i class="fa-solid fa-user-plus"></i></a>
                 </div>
 <%
 	} else {
 %>
-	<button onclick="location.href='logout.jsp'">로그아웃</button>
+	<div class="welcome">
+		<p> <span>"<%=id %>"</span>님 반갑습니다.</p>
+	</div>
+	<div class="logout">
+		<button onclick="location.href='logout.jsp'">로그아웃 <i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+	</div>
 <%
 	}
 %>
                 
                     <ul class="gnb-k">
                         <li><a href="#">Go Game</a></li>
-                        <li><a href="#">공지사항</a></li>
+                        <li><a href="BoardList.jsp">공지사항</a></li>
                         <li><a href="character.jsp">캐릭터 소개</a></li>
                         <li><a href="developer.jsp">개발자 소개</a></li>
                     </ul>
