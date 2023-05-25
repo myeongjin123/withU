@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/Boardwrite.css">
 </head>
 <body>
-
+<jsp:include page="/include/header.jsp"></jsp:include>
 	<div class="container">
 	<div class="do-co">
 		
@@ -53,6 +53,6 @@
 	</form>
 	</div>
 	</div>
-
+    <jsp:include page="/include/footer.jsp"></jsp:include>
 </body>
 </html>

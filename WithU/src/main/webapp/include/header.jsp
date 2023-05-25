@@ -31,7 +31,7 @@ String id = (String) session.getAttribute("sId");
 
 				<ul class="gnb-k">
 					<li><a href="#">Go Game</a></li>
-					<li><a href="BoardList.jsp">공지사항</a></li>
+					<li><a href="BoardList.jsp">게시판</a></li>
 					<li><a href="character.jsp">캐릭터 소개</a></li>
 					<li><a href="developer.jsp">개발자 소개</a></li>
 				</ul>

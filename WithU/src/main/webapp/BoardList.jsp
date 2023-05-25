@@ -13,9 +13,9 @@
 <link rel="stylesheet" href="css/boardlist.css">
 </head>
 <body>
+<jsp:include page="/include/header.jsp"></jsp:include>
 
-
-
+<div class="body">
 	<%
 	// 전체 게시물의 내용을 jsp 쪽으로 가져와야함
 	BoardDAO bdao = new BoardDAO();
@@ -24,7 +24,7 @@
 	%>
 
 	
-	<h1 class="m-100">공지사항</h1>
+	<h1 class="m-100">게시판</h1>
 	<!-- search box -->
 	<div class="w1000 search-box">
     	<form action="searchbbs.jsp" name="search" method="post" class="form-right">
@@ -119,6 +119,8 @@
 	        alert("비밀번호가 틀렸습니다.");
 	    }
 	</script> --%>
+</div>
+    <jsp:include page="/include/footer.jsp"></jsp:include>
 
 </body>
 </html>
