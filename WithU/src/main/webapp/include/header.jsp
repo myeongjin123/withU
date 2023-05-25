@@ -2,6 +2,9 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
+<%
+	String id = (String)session.getAttribute("sId");
+%>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,12 +23,16 @@
                     <a href="index.jsp">
                         <img src="images/logo.png" alt="logo">
                     </a>
+<%
+	if (id == null) {
+%>
                 <div class="member">
                     <a class="log">로그인</a>
         <div class="log-bg">
         <div class="log-content">
         <div class="log-form">
             <p class="log-title">The Adventure of Tosun</p>
+
             <div class="log-main">
                 <button type="button" id="button">X</button>
                 <h1>로그인</h1>
@@ -66,6 +73,13 @@
     </div>
                     <a href="register.jsp">회원가입</a>
                 </div>
+<%
+	} else {
+%>
+	<button onclick="location.href='logout.jsp'">로그아웃</button>
+<%
+	}
+%>
                 
                     <ul class="gnb-k">
                         <li><a href="#">Go Game</a></li>

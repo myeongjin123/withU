@@ -89,7 +89,7 @@ public class UserDAO {
 			boolean isLoginSuccess = false;
 			
 			try {
-				String sql = "select id from user where id = ? and pass = ?";
+				String sql = "select * from user where userid = ? and userpass = ?";
 				pstmt = con.prepareStatement(sql);
 				pstmt.setString(1, userbean.getUserid());
 				pstmt.setString(2, userbean.getUserpass());
