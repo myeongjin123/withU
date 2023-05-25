@@ -8,9 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form method="post" action="registerAction.jsp">
-	<label>asdasd</label>
-	<input type="text" name="id" />
+	<form method="post" action="checkidProc.jsp">
+	<label>아이디 : </label>
+	<input type="text" name="checkid" />
 	<button type="submit">검사하기</button>
 </form>
 	

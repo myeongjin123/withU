@@ -9,45 +9,45 @@ pageEncoding="UTF-8" %>
         <h1>Tosun 회원가입</h1>
         <form action="registerProc.jsp" name="register" class ="register"  method = "post">
             <div class="block">
-                <label for="username">이름</label>
+                <label for="username">이름 : </label>
                 <input type="text" name="username" id="username" >
             </div>
             <div class="block">
-                <label for="userid">아이디</label>
+                <label for="userid">아이디 : </label>
                 <input type="text" name="userid" id="userid"  >
                 <button type="button" onclick="checkid()">중복검사</button>
             </div>
             <div class="block">
-                <label for="userpass">비밀번호</label>
+                <label for="userpass">비밀번호 : </label>
                 <input type="password" name="userpass" id="userpass" >
             </div>
             <div class="block">
-                <label for="reuserpass">비밀번호 확인</label>
+                <label for="reuserpass">비밀번호 확인 : </label>
                 <input type="password" name="reuserpass" id="reuserpass" >
             </div>
             <div class="block">
-                <label for="email">이메일</label>
+                <label for="email">이메일 : </label>
                 <input type="email" name="useremail" id="useremail" >
             </div>
             <div class="block">
-                <label for="tel">전화번호</label>
+                <label for="tel">전화번호 : </label>
                 <input type="tel" name="tel" id="tel" placeholder ="'-'까지 입력해주세요. 예시) 010-0000-0000" >
             </div>
             <div class="block">
-                <label for="postcode">우편번호</label>
+                <label for="postcode">우편번호 : </label>
                 <input type="number" name="postcode" id="postcode" readonly >
                 <button class="find" type="button" onclick="sPostcode();">찾기</button>
             </div>
             <div class="block">
-                <label for="addr">주소</label>
+                <label for="addr">주소 : </label>
                 <input type="text" name="address" id="address" readonly />
             </div>
                 <div class="block">
-                <label for="detailaddr">상세주소</label>
+                <label for="detailaddr">상세주소 : </label>
             <input type="text" name="detailaddr" id="detailaddr"  />
             </div>
             <div class="block">
-                <label for="birth">생일</label>
+                <label for="birth">생일 : </label>
                 <input type="number" name="birth" id="birth" placeholder = "생년월일 숫자 8자리를 입력해주세요. " >
             </div>
             <div class="ok">
