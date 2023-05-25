@@ -63,7 +63,8 @@ public class UserDAO {
 		}
 		
 		public int idCheck(UserBean bean) {
-			String sql = "select*from users where userid =?";
+			getCon();
+			String sql = "select * from user where userid =?";
 			try {
 				pstmt=con.prepareStatement(sql);
 				pstmt.setString(1, bean.getUserid());
@@ -72,11 +73,14 @@ public class UserDAO {
 				//중복아이디가 있으면
 				if(rs.next()) {
 					return 1;
-				}else {
+				}
+				else {
+					System.out.println("리턴0");
 					return 0;
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
+				
 			}
 			return -1; //오류시
 		}
