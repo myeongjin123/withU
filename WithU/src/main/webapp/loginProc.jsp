@@ -7,13 +7,10 @@
 <body>
 <%
 	
-	String id = request.getParameter("userid");
-	String pass = request.getParameter("userpass");
+	String id = request.getParameter("id");
+	String pass = request.getParameter("password");
 	// 파라미터 가져와서 저장
 	// 로그인 처리시 필요한 아이디, 패스워드 필요
-	
-	out.println(id + "," + pass);
-	// 파라미터 넘어온값 확인
 	
 	UserBean userbean = new UserBean();
 	userbean.setUserid(id);
