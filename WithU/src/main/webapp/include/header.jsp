@@ -21,21 +21,32 @@
             <div class="container-k">
                 <div class="row-k">
                     <a href="index.jsp">
-                        <img src="images/logo.png" alt="logo">
+                        <img src="images/withuLogo3.png" alt="logo">
                     </a>
+                    
+                    <ul class="gnb-k">
+                        <li><a href="#">Go Game</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="character.jsp">캐릭터 소개</a></li>
+                        <li><a href="developer.jsp">개발자 소개</a></li>
+                    </ul>
+                    
 <%
 	if (id == null) {
 %>
                 <div class="member">
-                    <a class="log">로그인</a>
+                    <a class="log">Login</a>
         <div class="log-bg">
         <div class="log-content">
         <div class="log-form">
-            <p class="log-title">The Adventure of Tosun</p>
+        	<div>
+            <p class="log-title">With You</p>
+            <p class="log-title-a"> Journey with Animals</p>
+            </div>
 
             <div class="log-main">
                 <button type="button" id="button">X</button>
-                <h1>로그인</h1>
+                <h1>LOGIN</h1>
 
                 <form action="loginProc.jsp" method="post">
                     <div class="userid">
@@ -50,7 +61,7 @@
                 </form>
 
                 <div class="log-register">
-                    <a href="#">비밀번호 찾기</a>
+                    <a href="#">ID/PW 찾기</a>
                     <a href="#">회원 가입</a>
                 </div>
 
@@ -61,7 +72,7 @@
                         <a href="#"><img src="images/sns-google.png" alt="sns"></a>
                     </div>
                     <div class="facebook">
-                        <a href="#"><img src="images/sns-facebook.png" alt="sns"></a>
+                        <a href="#"><img src="images/sns-kakao.png" alt="sns"></a>
                     </div>
                     <div class="twitter">
                         <a href="#"><img src="images/sns-twitter.png" alt="sns"></a>
@@ -71,7 +82,7 @@
         </div>
     </div>
     </div>
-                    <a href="register.jsp">회원가입</a>
+                    <a href="register.jsp">Join</a>
                 </div>
 <%
 	} else {
@@ -81,12 +92,7 @@
 	}
 %>
                 
-                    <ul class="gnb-k">
-                        <li><a href="#">Go Game</a></li>
-                        <li><a href="#">공지사항</a></li>
-                        <li><a href="character.jsp">캐릭터 소개</a></li>
-                        <li><a href="developer.jsp">개발자 소개</a></li>
-                    </ul>
+                    
                 </div>
             </div>
         </header>

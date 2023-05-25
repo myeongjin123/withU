@@ -8,14 +8,14 @@ $(function(){
 })
 
 $(function(){
-    setInterval(mySlide,3000);
+   setInterval(mySlide,4000);
 
 });
 
 function mySlide(){
     $('.do-slide').animate({
         'left': '-300px'
-    },500, function(){
+    },3000, function(){
         //슬라이드인 안에 있는 첫번째 이미지를 복제해서(clone) 슬라이드인의 뒤에 붙여라(appendTo)
         $('.do-slide img:first-child')
         .clone().appendTo('.do-slide');

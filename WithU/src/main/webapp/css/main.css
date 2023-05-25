@@ -27,7 +27,7 @@ video {
 
 .hero{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: url(../images/space.jpg) no-repeat;
     background-size: 100%;
     position: relative;
@@ -153,7 +153,7 @@ video {
     font-size: 40px;
     font-style: italic;
     font-weight: 400;
-    color: rgb(30, 75, 47);
+	color: rgb(235, 85, 55);
 }
 .do-item p {
     line-height: 30px;
@@ -163,7 +163,7 @@ video {
 .do-box {
     width: 180px;
     text-align: center;
-    background-color: rgb(36, 76, 62);
+    background-color: rgb(235, 85, 55);
     padding: 16px 10px;
 }
 .do-box a {
@@ -178,9 +178,9 @@ video {
     border-color: rgb(255, 255, 255);
     border-image: initial;
     border-radius: 50%;
-    background: rgb(36, 76, 62);
+    background: rgb(235, 85, 55);
 }
 .do-box span:hover{
     background:rgb(255, 255, 255);
-    color:rgb(36, 76, 62);
+    color:rgb(235, 85, 55);
 }
