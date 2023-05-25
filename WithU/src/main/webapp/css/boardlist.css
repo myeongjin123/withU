@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	h1{
+		text-align: center;
+		font-size: 45px;
+	}
+	
+	.form-right{
+		float: right;
+	}
+	
+	.form-center{
+		text-align: center;
+	}
+	
+	.m-100{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	
+	.w100{
+		display: inline-block;
+		width: 100px;
+	}
+	
+	.w150{
+		display: inline-block;
+		width: 150px;
+	}
+	
+	.w400{
+		display: inline-block;
+		width: 450px;
+	}
+	
+	.w1000{
+		display: inline-block;
+		width: 1000px;
+	}
+	
+	.border-top0{
+		border-top: 1px solid #000;
+		background: #f5f5f5;
+		margin-top: 10px;
+	}
+	
+	.border-top0 span{
+		text-align: center;
+		height: 60px;
+		line-height: 60px;
+		font-weight: bold;
+	}
+	
+	.border-top0 span:first-child{
+		margin-left: 15px;
+	}
+	
+	.form-center a{
+		color: #000;
+		text-decoration: none;
+	}
+	
+	.form-center span{
+		height: 50px;
+		line-height: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.border-bottom1{
+		border-bottom: 1px solid #ccc;
+	}
+	
+	select{
+		width: 85px;
+		height: 35px;
+		padding: 5px;
+		border: 1px solid #ccc;
+	}
+	
+	#search-input{
+		display: inline-block;
+		width: 200px;
+		height: 35px; 
+		border: 1px solid #ccc;
+	}
+	
+	button{
+		display: inline-block;
+		padding: 8px 20px;
+		border: none;
+		background: #151534;
+		color: #fff;
+		cursor: pointer;
+		transition: all 0.2s;
+	}
+	
+	button:hover{
+		background: #94b7f7;
+	}
+	
+	.flex-select{
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.flex-select select,
+	.flex-select input{
+		margin-right:5px;
+	}
+	
+	.list-button{
+		margin-top: 10px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	.write-button{
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.write-button button{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
+	p.form-center{
+		margin-top: 50px;
+		margin-bottom: 200px;
+	}
+
+	#a-prev,
+	#a-next{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		color: #fff;
+		background-color: #555;
+		border-radius: 3px;
+	}
+	
+	#a-now{
+		display: inline-block;
+		width: 30px;
+		line-height: 30px;
+		height: 30px;
+		color: #000;
+		background-color: #eee;
+		border-radius: 3px;
+		transition: all 0.2s;
+	}
+	
+	#a-now:hover{
+		background-color: #94b7f7;
+	}
+	
+	.bold{
+		font-weight: bold;
+	}

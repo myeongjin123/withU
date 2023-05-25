@@ -139,6 +139,11 @@ function registerJS(){
 		postcode.focus();
 		return false;
 	}
+	else if(address.value==""){
+		alert("주소를 입력하세요.");
+		detailaddr.focus();
+		return false;
+	}
 	else if(detailaddr.value==""){
 		alert("상세주소를 입력하세요.");
 		detailaddr.focus();

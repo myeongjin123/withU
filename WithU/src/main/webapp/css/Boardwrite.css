@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.do-co{
+	position: relative;
+}
+.do-co h1{
+	text-align: center;
+}
+.do-home{
+	position: absolute;
+	text-decoration: none;
+	color: #151534;
+	font-size: 28px;
+	top: 5px;
+	right: 70px;
+}
+.do-home:hover{
+	color: #94b7f7;
+}
+.do-home-up{
+	position: absolute;
+	text-decoration: none;
+	color: #151534;
+	font-size: 28px;
+	top: 5px;
+	right: 50px;
+}
+.do-home-up:hover{
+	color: #94b7f7;
+}
+.do-reset{
+	position: absolute;
+	background: none;
+	border: none;
+	color: #151534;
+	font-size: 30px;
+	top: 10px;
+	right: 10px;
+}
+.do-reset i:hover {
+	color: #94b7f7;
+}
+.do-title{
+	border-top: 2px solid #151534;
+	border-bottom: 1px solid #aaa;
+	padding: 10px 0;
+	font-weight: bold;
+	padding-left: 135px;
+}
+.do-writer{
+	border-bottom: 1px solid #aaa;
+	padding: 10px 0;
+	font-weight: bold;
+	padding-left: 135px;
+}
+.do-title span, .do-writer span{
+	display: inline-block;
+	width: 80px;
+	text-align: left;
+}
+.do-title input{
+	width: 650px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: #ccc;
+	padding: 1px 5px;
+}
+.do-writer input{
+	width: 650px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	border-color: #ccc;
+	padding: 1px 5px;
+}
+.do-user{
+	border-bottom: 1px solid #aaa;
+	padding: 10px 0;
+	font-weight: bold;
+}
+.do-u{
+	display: flex;
+	width: 700px;
+	margin-left: 223px;
+}
+.do-id{
+	margin-left: -87px;
+	margin-right: 50px;
+}
+.do-id span{
+	display: inline-block;
+	width: 80px;
+	text-align: left;
+}
+.do-id input{
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: #ccc;
+	padding: 1px 5px;
+}
+.do-pw input{
+	width: 200px;
+	margin-left: 20px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: #ccc;
+	padding: 1px 5px;
+}
+.do-content{
+	padding: 30px 0px 30px 50px;
+	border-bottom: 2px solid #151534;
+}
+.do-con{
+	display: flex;
+	margin-left: 90px;
+}
+.do-item{
+	display: inline-block;
+	width: 92px;
+	margin-top: 130px;
+	font-weight: bold;
+	margin-right: -10px;
+}
+.do-content textarea {
+	border: 1px solid #151534;
+	border-radius: 10px;
+	width: 650px;
+	padding: 10px;
+}
+.do-button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.do-write,.do-cancel{
+	padding: 9px 33px;
+	background: #151534;
+	color: #fff;
+	font-weight: bold;
+
+}
+.do-write:hover,.do-cancel:hover{
+	background: #94b7f7;
+}
