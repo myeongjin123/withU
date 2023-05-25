@@ -35,12 +35,12 @@ pageEncoding="UTF-8" %>
             </div>
             <div class="block">
                 <label for="postcode">우편번호</label>
-                <input type="number" name="postcode" id="postcode" >
+                <input type="number" name="postcode" id="postcode" readonly >
                 <button class="find" type="button" onclick="sPostcode();">찾기</button>
             </div>
             <div class="block">
                 <label for="addr">주소</label>
-                <input type="text" name="address" id="address" />
+                <input type="text" name="address" id="address" readonly />
             </div>
                 <div class="block">
                 <label for="detailaddr">상세주소</label>
@@ -52,7 +52,7 @@ pageEncoding="UTF-8" %>
             </div>
             <div class="ok">
             <button type="reset">초기화</button>
-            <button type ="button" value ="submit" onClick ="registerJS();" > 회원가입 </button>
+            <button type ="button" onClick ="registerJS();" > 회원가입 </button>
             </div>
         </form>
     </div>
