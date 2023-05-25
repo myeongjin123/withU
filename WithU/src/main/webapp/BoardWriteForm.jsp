@@ -20,21 +20,21 @@
 			<button class="do-reset" type="reset"><i class="fa-solid fa-arrow-rotate-right"></i></button>
 			<div class="do-title">
 				<span>제목</span>
-				<input type="text" name="subject" size="90">
+				<input type="text" name="subject" size="90" required="required">
 			</div>
 			<div class="do-writer">
 				<span>작성자</span>
-				<input type="text" name="writer" size="30">
+				<input type="text" name="writer" size="30" required="required">
 			</div>
 			<div class="do-user">
 				<div class="do-u">
 					<div class="do-id">
 						<span>아이디</span>
-						<input type="text" name="userid">
+						<input type="text" name="userid" required="required">
 					</div>
 					<div class="do-pw">
 						<span>비밀번호</span>
-						<input type="password" name="userpass">
+						<input type="password" name="userpass" required="required">
 					</div>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 		<div class="do-content">
 			<div class="do-con">
 				<div class="do-item">내용</div>
-				<div><textarea rows="20" cols="100" name="content" id="text"></textarea></div>
+				<div><textarea rows="20" cols="100" name="content" id="text" required="required"></textarea></div>
 			</div>
 		</div>
 		<div class="do-button">

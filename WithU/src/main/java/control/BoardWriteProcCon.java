@@ -1,6 +1,7 @@
 package control;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -37,9 +38,11 @@ public class BoardWriteProcCon extends HttpServlet {
 		BoardDAO bdao = new BoardDAO();
 		bdao.insertBoard(bean);
 		
+		
 		//RequestDispatcher dis = request.getRequestDispatcher("BoardListCon.do");
 		//dis.forward(request, response);
 		response.sendRedirect("BoardListCon.do");
+		
 	}
 
 }

@@ -152,7 +152,8 @@ body {
 	background: #151534;
 	color: #fff;
 	font-weight: bold;
-
+	border: none;
+	transition: all 0.2s;
 }
 .do-write:hover,.do-cancel:hover{
 	background: #94b7f7;
