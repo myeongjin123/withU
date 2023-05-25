@@ -34,13 +34,18 @@ header img {
     height: 110px;
 }
 .member{
+	width: 320px;
 	margin-left: -250px;
 }
 .member a{
 	text-decoration: none;
 	color: #fff;
 	font-weight: 700;
-	margin: 10px;
+}
+
+.member a:first-child {
+	margin-left: 170px;
+	margin-right: 20px;
 }
 
 ul.gnb-k {
@@ -70,21 +75,12 @@ ul.gnb-k li a:hover {
 .log{
     font-size: 16px;
     font-weight: 700;
-    position: absolute;
-    left: 170px;
-    top: 30px;
-    cursor: pointer;
 }
 
 .log:hover {
 	color: gray;
 }
 
-.regi {
-	position: absolute;
-    left: 260px;
-    top: 30px;
-}
 
 .regi:hover {
 	color: gray;
@@ -201,32 +197,23 @@ ul.gnb-k li a:hover {
 }
 
 .welcome {
-	position: absolute;
-	left: 150px;
 	color: #fff;
 	font-size: 16px;
 	font-weight: 700;
-}
-
-
-.logout {
 	position: absolute;
-	left: 350px;
+	right: 150px;
+	top: 27px;
 }
+
 
 .logout button {
 	border: none;
 	background: none;
 	color: #fff;
-	font-weight: 700;
+	font-weight: bold;
 	cursor: pointer;
 }
 
 .logout button:hover {
 	color: gray;
-    width: 40px;
-    height: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-
 }
