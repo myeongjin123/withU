@@ -19,7 +19,8 @@ body {
 
 header {
     height: 100px;
-    background: #10654e;
+    background: linear-gradient(to right,#0d110e,#1e2922,#435b4d,#533834,#5e2c23);
+    
 }
 
 .row-k {
@@ -29,8 +30,8 @@ header {
 }
 
 header img {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
 }
 .member{
 	margin-left: -250px;
@@ -101,40 +102,51 @@ ul.gnb-k li a:hover {
 }
 .log-form{
     position: relative;
-    width: 600px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     align-items: center;
-    margin-left: calc(50% - 300px);
-    margin-top: 200px;
+    margin-left: calc(50% - 200px);
+    margin-top: 100px;
     text-align: center;
 }
 .log-title{
+	width: 450px;
     font-size: 40px;
     color: #fff;
     font-weight: bold;
+    margin: 0;
+}
+.log-title-a{
+	width: 450px;
+	font-size: 25px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
 }
 .log-main{
+	width: 450px;
+	height: 460px;
     background: #fff;
     border-radius: 30px;
 }
 .log-main button{
-    font-size: 30px;
+    font-size: 25px;
     background: none;
     border: none;
     color: #aaa;
-    margin-left: 500px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-top: 10px;
     cursor: pointer;
 }
 .log-main h1{
     font-weight: lighter;
     padding-bottom: 20px;
+    margin: 0px;
 }
 .userid input,
 .pw input{
-    width: 500px;
-    height: 60px;
+    width: 350px;
+    height: 35px;
     border: 1px solid #ccc;
     font-size: 18px;
     padding-left: 20px;
@@ -142,30 +154,33 @@ ul.gnb-k li a:hover {
     border-radius: 10px;
 }
 .submit input{
-    width: 500px;
-    height: 60px;
-    background-color: rgb(16,101,78);
-    font-size: 22px;
+    width: 350px;
+    height: 40px;
+    background-color: #141b16;
+    font-size: 18px;
     color: #fff;
     font-weight: bold;
     margin-top: 10px;
-    margin-bottom: 20px;
     border-radius: 10px;
     cursor: pointer;
+}
+.submit input:hover{
+	background-color:rgb(235, 85, 55);
+	border: none;
 }
 .log-register{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
 }
 .log-register a{
-    font-size: 18px;
+    font-size: 14px;
     color: #777;
     padding-left: 50px;
     padding-right: 50px;
 }
 .log-explain{
-    font-size: 20px;
+	margin: 0px;
+    font-size: 18px;
     color: #aaa;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -174,15 +189,15 @@ ul.gnb-k li a:hover {
 .log-sns{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
 }
 .google img,
 .facebook img,
 .twitter img{
-    width: 50px;
-    height: 50px;
-    margin-right: 30px;
-    margin-left: 30px;
+
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .welcome {
@@ -209,4 +224,9 @@ ul.gnb-k li a:hover {
 
 .logout button:hover {
 	color: gray;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+
 }
