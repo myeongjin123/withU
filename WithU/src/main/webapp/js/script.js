@@ -183,3 +183,35 @@ function checkid(){
     
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kakao.init('1e9ae6e9b9417d2fad781758da6de12d');
+function kakaoLogin() {
+	Kakao.Auth.login({
+		success : function (response) {
+			Kakao.API.request({
+				url : '/v1/user/unlink',
+				sucess : function (response) {
+					alert (JSON.stringify(response))
+				},
+				fail : function (error) {
+					alert (JSON.stringify(error))
+				},
+			})
+		},
+		fail : function (error) {
+			alert (JSON.stringify(error))
+		}
+	})
+}

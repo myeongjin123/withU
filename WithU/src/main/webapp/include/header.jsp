@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@taglibprefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="ko">
 <%
@@ -18,8 +19,11 @@ String id = (String) session.getAttribute("sId");
 	integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
 	crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./css/header.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js" integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx" crossorigin="anonymous"></script>
+ -->
+<script type="text/javascript" src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
 </head>
 <body>
@@ -76,14 +80,10 @@ String id = (String) session.getAttribute("sId");
 									<p class="log-explain">또는 소설 계정으로 로그인</p>
 
 									<div class="log-sns">
-										<div class="google">
-											<a href="#"><img src="images/sns-google.png" alt="sns"></a>
-										</div>
-										<div class="facebook">
-											<a href="#"><img src="images/sns-kakao.png" alt="sns"></a>
-										</div>
-										<div class="twitter">
-											<a href="#"><img src="images/sns-twitter.png" alt="sns"></a>
+										<div class="kakao">
+											<a href="javascript:kakaoLogin()" id="kakao-login-btn">
+												<img src="<c:urlvalue="../images/kakao_login_large_wide.png"/ >" />
+											</a>
 										</div>
 									</div>
 								</div>
