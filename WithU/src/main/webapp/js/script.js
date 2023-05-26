@@ -162,6 +162,57 @@ function registerJS(){
 	//이상이 없을 경우
 	document.register.submit();
 	
-}        
+}
+
+function checkid(){
+	const url = "checkid.jsp";
+	const width=500, height=350;
+	let left = (document.body.offsetWidth / 2) - (width / 2);
+	let top = (document.body.offsetHeight / 2) - (height);
+	left += window.screenLeft;
+	
+	window.open(
+		url, 
+		"popup", 
+		`width=${width}, 
+		 height=${height}, 
+		 left=${left}, 
+		 top=${top}`
+    );
+    }
+    
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Kakao.init('1e9ae6e9b9417d2fad781758da6de12d');
+function kakaoLogin() {
+	Kakao.Auth.login({
+		success : function (response) {
+			Kakao.API.request({
+				url : '/v1/user/unlink',
+				sucess : function (response) {
+					alert (JSON.stringify(response))
+				},
+				fail : function (error) {
+					alert (JSON.stringify(error))
+				},
+			})
+		},
+		fail : function (error) {
+			alert (JSON.stringify(error))
+		}
+	})
+}
+*/

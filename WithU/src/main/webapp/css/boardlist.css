@@ -3,7 +3,7 @@
 	*{
 		box-sizing: border-box;
 	}
-	body{
+	.body{
 		width: 1000px;
 		margin-left: auto;
 		margin-right: auto;

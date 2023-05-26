@@ -166,13 +166,16 @@ ul.gnb-k li a:hover {
 }
 .log-register{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.log-register a{
+.member .log-register a{
     font-size: 14px;
     color: #777;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 0px;
+    margin-bottom: 20px;
 }
 .log-explain{
 	margin: 0px;
@@ -182,9 +185,8 @@ ul.gnb-k li a:hover {
     padding-top: 20px;
     border-top: 1px solid #ddd;
 }
-.log-sns{
-    display: flex;
-    justify-content: center;
+.member .log-sns a {
+	margin: 0px;
 }
 .google img,
 .facebook img,
@@ -216,4 +218,8 @@ ul.gnb-k li a:hover {
 
 .logout button:hover {
 	color: gray;
+}
+.log-sns img {
+	width: 78%;
+	height: inherit;
 }

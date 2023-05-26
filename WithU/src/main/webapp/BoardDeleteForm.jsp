@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/Boarddel.css">
 </head>
 <body>
+<jsp:include page="/include/header.jsp"></jsp:include>
 	<div class="do-del" align="center">
 		<h2>게시글 삭제</h2>
 		<form action="BoardDeleteProcCon.do" method="post">
@@ -29,6 +30,6 @@
 			</div>
 		</form>
 	</div>
-
+    <jsp:include page="/include/footer.jsp"></jsp:include>
 </body>
 </html>
