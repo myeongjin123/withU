@@ -73,7 +73,7 @@ String id = (String) session.getAttribute("sId");
 
 									<div class="log-register">
 
-										<a href="#">ID/PW 찾기</a> <a href="#">회원 가입</a>
+										<a href="FindIdPw.jsp">ID/PW 찾기</a> <a href="#">회원 가입</a>
 									</div>
 
 									<p class="log-explain">또는 소설 계정으로 로그인</p>
