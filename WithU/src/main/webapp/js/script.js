@@ -195,7 +195,7 @@ function checkid(){
 
 
 
-
+/*
 Kakao.init('1e9ae6e9b9417d2fad781758da6de12d');
 function kakaoLogin() {
 	Kakao.Auth.login({
@@ -215,3 +215,4 @@ function kakaoLogin() {
 		}
 	})
 }
+*/

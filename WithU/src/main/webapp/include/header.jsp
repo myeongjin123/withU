@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@taglibprefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="ko">
 <%
@@ -82,7 +81,7 @@ String id = (String) session.getAttribute("sId");
 									<div class="log-sns">
 										<div class="kakao">
 											<a href="javascript:kakaoLogin()" id="kakao-login-btn">
-												<img src="<c:urlvalue="../images/kakao_login_large_wide.png"/ >" />
+												<img src="images/kakao_login_large_wide.png" />
 											</a>
 										</div>
 									</div>
