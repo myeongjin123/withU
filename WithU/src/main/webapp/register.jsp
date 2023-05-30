@@ -6,7 +6,7 @@ pageEncoding="UTF-8" %>
 <jsp:include page="/include/header.jsp"></jsp:include>
 
     <div class="container">
-        <h1>Tosun 회원가입</h1>
+        <h1>회원가입</h1>
         <form action="registerProc.jsp" name="register" class ="register"  method = "post">
             <div class="block">
                 <label for="username">이름 : </label>
