@@ -73,18 +73,19 @@ String id = (String) session.getAttribute("sId");
 
 									<div class="log-register">
 
-										<a href="FindIdPw.jsp">ID/PW 찾기</a> <a href="#">회원 가입</a>
+										<a href="FindIdPw.jsp">ID/PW 찾기</a> <a href="register.jsp">회원 가입</a>
 									</div>
 
-									<p class="log-explain">또는 소설 계정으로 로그인</p>
-
-									<div class="log-sns">
-										<div class="kakao">
-											<a href="javascript:kakaoLogin()" id="kakao-login-btn">
-												<img src="images/kakao_login_large_wide.png" />
-											</a>
+									<p class="log-explain">소설 계정으로 게스트 로그인</p>
+									<form action="kakaoCheck.jsp">
+										<div class="log-sns">
+											<div class="kakao">
+												<a href="javascript:kakaoLogin()" id="kakao-login-btn">
+													<img src="images/kakao_login_large_wide.png" />
+												</a>
+											</div>
 										</div>
-									</div>
+									</form>
 								</div>
 							</div>
 						</div>
@@ -105,7 +106,7 @@ String id = (String) session.getAttribute("sId");
 					</div>
 					<div class="logout">
 						<button onclick="location.href='logout.jsp'">
-							로그아웃 <i class="fa-solid fa-arrow-right-from-bracket"></i>
+							Logout <i class="fa-solid fa-arrow-right-from-bracket"></i>
 						</button>
 					</div>
 				
