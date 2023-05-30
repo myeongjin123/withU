@@ -57,3 +57,41 @@
   	width: 500px;
   	height: 500px;
   }
+  
+  
+  
+  
+  /**character add**/
+  
+  h1{
+  	margin-top: 100px;
+  }
+  
+  .game-link{
+  	display: inline-block;
+  	height: 100px;
+  	margin-top: 50px;
+  }
+  
+  .game-link a{
+  	font-weight: bold;
+  	font-size: 18px;
+  	color: #000;
+  	text-decoration: none;
+  }
+  
+  .char-img img{
+  	margin-right: 50px;
+  }
+  
+  .row2{
+  	margin-top: 100px;
+  }
+  
+  #house{
+  	margin-right: 50px;
+  }
+  
+  .house h1{
+  	margin-top: 50px;
+  }

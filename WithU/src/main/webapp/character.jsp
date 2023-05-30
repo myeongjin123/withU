@@ -44,6 +44,19 @@
                         자신의 내면에 맞는 일을 찾고, 자신의 가치관에 따라 살아가는 캐릭터입니다. <br>
                         타인의 감정에 공감하며, 따뜻하고 친절한 성격으로, 사람들에게 위로를 주는 캐릭터입니다.
                       </p>
+                      
+                      <span class="game-link">
+                      	<a href="#">자스와 함께 게임하러 가기</a> 
+                      	<img src="gameteam_minigame/cr_minigame/images/potato-b.png">
+                      </span>
+                      <br>
+                      <span class="char-img">
+                      	<img src="images/img/cr-f.png">
+                      	<img src="images/img/cr-l.png">
+                      	<img src="images/img/cr-r.png">
+                      	<img src="images/img/cr-b.png">
+                      </span>
+                      
                     </span>
                    </span>    
                 </div>
@@ -59,6 +72,19 @@
                         실용적이며 목표지향적이며, 계획에 따라 일을 처리하는 능력이 뛰어난 캐릭터입니다. <br>
                         자신의 규칙과 원칙을 중요시하며, 능력과 자신감을 발휘하는 캐릭터입니다. 
                       </p>
+                      
+                      <span class="game-link">
+                      	<a href="#">자바와 함께 게임하러 가기</a> 
+                      	<img src="gameteam_minigame/ham_minigame/images/hong-b.png">
+                      </span>
+                      <br>
+                      <span class="char-img">
+                      	<img src="images/img/ham-f.png">
+                      	<img src="images/img/ham-l.png">
+                      	<img src="images/img/ham-r.png">
+                      	<img src="images/img/ham-b.png">
+                      </span>
+                      
                     </span>
                    </span>    
                 </div>
@@ -74,6 +100,19 @@
                         상상력이 풍부하며, 창의적이고 혁신적인 아이디어를 내는 캐릭터입니다. <br>
                         자유롭고 개성이 강하며, 친구와의 대화를 즐기는 사람들에게 인기 있는 캐릭터입니다. 
                       </p>
+                      
+                      <span class="game-link">
+                      	<a href="#">에스와 함께 게임하러 가기</a> 
+                      	<img src="gameteam_minigame/qu_minigame/images/do-b.png">
+                      </span>
+                      <br>
+                      <span class="char-img">
+                      	<img src="images/img/qu-f.png">
+                      	<img src="images/img/qu-l.png">
+                      	<img src="images/img/qu-r.png">
+                      	<img src="images/img/qu-b.png">
+                      </span>
+                      
                     </span>
                    </span>    
                 </div>
@@ -89,6 +128,19 @@
                         협력적이고 적극적으로 다른 사람들을 돕는 일을 즐기는 캐릭터입니다. <br>
                         친절하고 사교적이며, 누구에게나 친구가 되어주는 캐릭터입니다. 
                       </p>
+                      
+                      <span class="game-link">
+                      	<a href="#">에체멜과 함께 게임하러 가기</a> 
+                      	<img src="images/img/strawberry.png">
+                      </span>
+                      <br>
+                      <span class="char-img">
+                      	<img src="images/img/ra-f.png">
+                      	<img src="images/img/ra-l.png">
+                      	<img src="images/img/ra-r.png">
+                      	<img src="images/img/ra-b.png">
+                      </span>
+                      
                     </span>
                    </span>    
                 </div>
@@ -104,21 +156,47 @@
                         예지력과 직관력으로 미래를 내다보는 민감한 성격을 지닌 캐릭터입니다. <br>
                         조용하고 내성적이지만, 진지한 역할을 맡아 문제 해결을 추구하는 캐릭터입니다.
                       </p>
+                      
+                      <span class="game-link">
+                      	<a href="#">스프링과 함께 게임하러 가기</a> 
+                      	<img src="images/img/carrot.png">
+                      </span>
+                      <br>
+                      <span class="char-img">
+                      	<img src="images/img/rb-f.png">
+                      	<img src="images/img/rb-l.png">
+                      	<img src="images/img/rb-r.png">
+                      	<img src="images/img/rb-b.png">
+                      </span>
+                      
                     </span>
                    </span>    
                 </div>
                 <div>
-                  <span class="row">
+                  <span class="row row2">
                     <span class="homesizeup">
-                      <img src="images/homesizeup.png" alt="rb">
+                      <img src="images/homesizeup.png" alt="rb" id="house">
                     </span>
-                    <span>
+                    <span class="house">
                       <h1>허브 (Git hub)</h1>
                       <p class="tag"> #집 #estj #감각 #예술적 #진심 #친절</p>
                       <p> 감각적이며 예술적인 성향을 가진 캐릭터입니다. <br>
-                        자신만의 독특한 미적 감각을 가지고있으며, 자신이 좋아하는 것들에 대헤 진심으로 즐기는 캐릭터입니다. <br>
-                        친절하고 온화하며, 존중받고 싶어하는 감성적인 성격으로, 인간관계에서 중요시하는 캐릭터입니다.
+                        자신만의 독특한 미적 감각을 가지고있으며,<br> 자신이 좋아하는 것들에 대헤 진심으로 즐기는 캐릭터입니다. <br>
+                        친절하고 온화하며, 존중받고 싶어하는 감성적인 성격으로, <br>인간관계에서 중요시하는 캐릭터입니다.
                       </p>
+                      
+                      <span class="game-link">
+                      	<a href="#">허브와 함께 게임하러 가기</a> 
+                      	<img src="images/img/fire.png">
+                      </span>
+                      <br>
+                      <span class="char-img">
+                      	<img src="images/img/house-red.png">
+                      	<img src="images/img/house-yellow.png">
+                      	<img src="images/img/house-green.png">
+                      	<img src="images/img/house-blue.png">
+                      </span>
+                      
                     </span>
                    </span>    
                 </div>
