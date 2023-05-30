@@ -1,57 +1,77 @@
 @charset "UTF-8";
-        .container{
-            width: 500px;
-            margin: 30px auto;
-            border-radius: 15px;
-            background: #555;
-        }
-        h1{
-        	color: #fff;
-            text-align: center;
-            padding-top: 10px;
-        }
-        h2{
-            text-align: center;
-        }
-        label{
-        	color: #fff;
-        	font-weight: bold;
-            display: block;
-        }
-        .block{
-            margin-left: 30px;
-            margin-right: 30px;
-            font-size: 20px;
-            margin-bottom: 15px;
-        }
-        input{
-            width: 100%;
-            height: 30px;
-            font-size: 20px;
-            border: none;
-        }
-        .block button{
-        	padding-top: 10px;
-        	padding-bottom: 6px;
-        	border: none;
-        	background: #59a75c;
-        	margin-left: 8px;
-        }
-        #userid{
-        	width: 80%
-        }
-        .ok{
-            text-align: center;
-        }
-        .ok button{
-            margin: 5px;
-            padding: 5px 10px;
-            background: #59a75c;
-            border: none;
-        }
-        #postcode{
-            width: 80%;
-        }
-        .find{
-            padding: 2px 20px;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+.container{
+	width:1000px;
+	background: #f9f9f9;
+	margin: 0 auto;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 60px;
+}
+
+form{
+	margin: 50px 0;
+	
+}
+
+.block{
+	margin-bottom: 30px;
+	margin-left: 150px;
+	
+}
+
+label{
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	background: #ebe7e6;
+	text-align: center;
+}
+
+input{
+	width: 400px;
+	height: 50px;
+	border: none;
+	background: #fff;
+	margin-left: 30px;
+	padding-left: 30px;
+	border: 1px solid #ddd;
+}
+
+button{
+	width: 100px;
+	height: 50px;
+	background: #eb5537;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+}
+
+button:hover{
+	background: #fc5b3a;
+}
+
+.top-btn{
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.under-btn{
+	margin: 50px 30px;
+	width: 150px;
+}
+
+.ok{
+	display: inline-block;
+	margin-left: 300px;
+}
