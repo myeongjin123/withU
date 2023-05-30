@@ -27,7 +27,7 @@ video {
 
 .hero{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background: url(../images/space.jpg) no-repeat;
     background-size: 100%;
     position: relative;
@@ -43,7 +43,7 @@ video {
     background:url(../images/mercury.gif);
     background-position: center;
     background-size: 200px 200px;
-    top: 40px;
+    top: 150px;
     left: 120px;
 }
 .char2{
@@ -54,9 +54,9 @@ video {
     height: 200px;
     background:url(../images/gumsung.png);
     background-position: center;
-    background-size: 200px 200px;
-    top: 240px;
-    left: 280px;
+    background-size: 250px 250px;
+    top: 390px;
+    left: 320px;
 }
 .char3{
     position: absolute;
@@ -66,7 +66,7 @@ video {
     height: 200px;
     background:url(../images/earth.webp);
     background-position: center;
-    top: 27px;
+    top: 150px;
     left: 540px;
 }
 .char4{
@@ -78,8 +78,8 @@ video {
     background:url(../images/huasung.png);
     background-position: center;
     background-size: 200px 200px;
-    top: 260px;
-    left: 740px;
+    top: 390px;
+    left: 720px;
 }
 .char5{
     position: absolute;
@@ -90,8 +90,8 @@ video {
     background:url(../images/Planet.png);
     background-position: center;
     background-size: 200px 200px;
-    top: 37px;
-    left: 1000px;
+    top: 150px;
+    left: 950px;
 }
 .char6{
     position: absolute;
@@ -102,8 +102,8 @@ video {
     background:url(../images/cosmos.webp);
     background-position: center;
     background-size: 200px 200px;
-    top: 280px;
-    left: 1200px;
+    top: 390px;
+    left: 1120px;
 }
 .hero{
 	margin-top: -5px;
@@ -111,9 +111,10 @@ video {
 .hero img{
     display: none;
     position: absolute;
-    top: 70px;
-    left: 20px;
-    width: 80%;
+    top: 80px;
+    left: 55px;
+    width: 100px;
+    height: 130px;
 }
 /*******Developer*********/
 .do-pr {

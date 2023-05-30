@@ -14,7 +14,7 @@ pageEncoding="UTF-8" %>
             </div>
             <div class="block">
                 <label for="userid">아이디 : </label>
-                <input type="text" name="userid" id="userid"  >
+                <input type="text" name="userid" id="userid" />
                 <button type="button" onclick="checkid()">중복검사</button>
             </div>
             <div class="block">
