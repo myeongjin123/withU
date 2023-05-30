@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<form name="findscreen" action="FindIdProc" method="post">
+	<form name="findscreen" method="post">
 		<label for="">이름</label>
 		<input type="text" name="name" placeholder="이름"/>
 		<label for="">전화번호</label>
@@ -28,7 +28,7 @@
 		}
 		
 		frm.method = "post";
-		frm.action = "FindIdResilt.jsp";
+		frm.action = "FindIdResult.jsp";
 		frm.submit();
 	}
 </script>

@@ -24,6 +24,12 @@
                   <img src="images/rb.png" alt="rb">
                   스프링 (SPRING)
                 </li>
+                 <li>
+                 <div class=" home">
+                  <img src="images/home.png" alt="rb">
+                  허브 (Git hub)
+                  </div>
+                </li>
             </ul>
             <div class="tab_cont">
                 <div class="on">
@@ -97,6 +103,21 @@
                       <p> 세상과 달리 생각하는 마음을 가진 캐릭터로, 진실을 추구하며 동정심이 강합니다. <br>
                         예지력과 직관력으로 미래를 내다보는 민감한 성격을 지닌 캐릭터입니다. <br>
                         조용하고 내성적이지만, 진지한 역할을 맡아 문제 해결을 추구하는 캐릭터입니다.
+                      </p>
+                    </span>
+                   </span>    
+                </div>
+                <div>
+                  <span class="row">
+                    <span class="homesizeup">
+                      <img src="images/homesizeup.png" alt="rb">
+                    </span>
+                    <span>
+                      <h1>허브 (Git hub)</h1>
+                      <p class="tag"> #집 #estj #감각 #예술적 #진심 #친절</p>
+                      <p> 감각적이며 예술적인 성향을 가진 캐릭터입니다. <br>
+                        자신만의 독특한 미적 감각을 가지고있으며, 자신이 좋아하는 것들에 대헤 진심으로 즐기는 캐릭터입니다. <br>
+                        친절하고 온화하며, 존중받고 싶어하는 감성적인 성격으로, 인간관계에서 중요시하는 캐릭터입니다.
                       </p>
                     </span>
                    </span>    
