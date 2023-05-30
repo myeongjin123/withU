@@ -8,11 +8,12 @@
             <video src="images/-82659.mp4" autoplay loop muted></video>
             <div class="textbox-k">
                 <h1>Let's Start Game!!!</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
-                    when an unknown printer took a galley of type and scrambled it to make a type <br>
-                    specimen book. It has survived not only five centuries, <br>
-                    but also the leap into electroni</p>
+                <p>Once upon a time, in a vast galaxy, animals embarked on a cosmic quest for new planet. <br />
+                With courage and curiosity, they soared through the infinite expanse, guided by the twinkling stars. <br />
+                Together, they explored distant planets, each uniquely suited for their needs. <br />
+                The lion found a majestic savannah, the dolphin a shimmering ocean, and the eagle a boundless sky. <br />
+                United by their shared journey, the animals discovered that in the vastness of the universe, there's a place for every creature to call home. <br />
+                And so, they lived happily ever after among the stars.
             </div>
         </div>
         
