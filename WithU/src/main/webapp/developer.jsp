@@ -329,7 +329,7 @@
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/myimg.png" alt="img1">
+                        <img src="images/최누리.jpg" alt="img1" id="pic">
                         <div class="quick">
                             <a href="https://github.com/chlsnfl" target="_blank">
                                 <i class="fa-brands fa-github"></i>
@@ -344,9 +344,6 @@
                     </div>
                     <div class="content col-6 col-md-12">
                         <div class="top-content">
-                            <p>
-                                
-                            </p>
                             <p>
                                위드유 프로젝트에서 게임팀을 맡아 <span>자바스크립트를</span> 사용해 미니 게임을 제작하였습니다.
                             </p>
