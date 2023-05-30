@@ -19,22 +19,22 @@
         
         <div class="hero">
             <div class="char1">
-                <img class="character" src="./images/cr-f.png" alt="test-img">
+                <img class="character" src="./images/cr-f.png" alt="cr">
             </div>
             <div class="char2">
-                <img class="character" src="./images/ham-f.png" alt="test-img">
+                <img class="character" src="./images/ham-f.png" alt="ham">
             </div>
             <div class="char3">
-                <img class="character" src="./images/qu-f.png" alt="test-img">
+                <img class="character" src="./images/qu-f.png" alt="qu">
             </div>
             <div class="char4">
-                <img class="character" src="./images/ra-f.png" alt="test-img">
+                <img class="character" src="./images/ra-f.png" alt="ra">
             </div>
             <div class="char5">
-                <img class="character" src="./images/rb-f.png" alt="test-img">
+                <img class="character" src="./images/rb-f.png" alt="rb">
             </div>
             <div class="char6">
-                <img class="character" src="./images/test-img.png" alt="test-img">
+                <img class="character" src="./images/home.png" alt="home">
             </div>
         </div>
             <!-- 도연 개발자 소개 + 풋터 -->

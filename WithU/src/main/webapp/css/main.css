@@ -38,11 +38,10 @@ video {
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     background:url(../images/mercury.gif);
-    background-position: center;
-    background-size: 200px 200px;
+    background-size: 250px 250px;
     top: 150px;
     left: 120px;
 }
@@ -111,10 +110,17 @@ video {
 .hero img{
     display: none;
     position: absolute;
-    top: 80px;
+    top: 90px;
     left: 55px;
     width: 100px;
     height: 130px;
+}
+.char6 img{
+	position: absoulute;
+	top: 70px;
+	left: 35px;
+	width: 150px;
+	height: 150px;
 }
 /*******Developer*********/
 .do-pr {
