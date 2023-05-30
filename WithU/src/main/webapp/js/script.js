@@ -196,23 +196,53 @@ function checkid(){
 
 
 
-Kakao.init('1e9ae6e9b9417d2fad781758da6de12d');
-function kakaoLogin() {
-	Kakao.Auth.login({
-		success : function (response) {
-			Kakao.API.request({
-				url : '/v1/user/unlink',
-				sucess : function (response) {
-					alert (JSON.stringify(response))
-				},
-				fail : function (error) {
-					alert (JSON.stringify(error))
-				},
-			})
-		},
-		fail : function (error) {
-			alert (JSON.stringify(error))
-		}
-	})
-}
 
+
+
+
+ function saveToDos(token) { //item을 localStorage에 저장합니다. 
+            typeof(Storage) !== 'undefined' && sessionStorage.setItem('AccessKEY', JSON.stringify(token)); 
+        };
+
+        window.Kakao.init('970c5c036535c863a9ea0806a9938676');
+        
+        function kakaoLogin() {
+            window.Kakao.Auth.login({
+                scope: 'profile_nickname, account_email', //동의항목 페이지에 있는 개인정보 보호 테이블의 활성화된 ID값을 넣습니다.
+                success: function(response) {
+                    saveToDos(response.access_token)  // 로그인 성공하면 사용자 엑세스 토큰 sessionStorage에 저장
+                    window.Kakao.API.request({ // 사용자 정보 가져오기 
+                        url: '/v2/user/me',
+                        success: (res) => {
+                            const kakao_account = res.kakao_account;
+                            alert('로그인 성공');
+                            window.location.href='kmain.jsp'
+                        }
+                    });
+                },
+                fail: function(error) {
+                    console.log(error);
+                }
+            });
+        };
+
+        const login = document.querySelector('#kakaoLogin');
+        login.addEventListener('click', kakaoLogin);
+        
+        
+        function kakaoLogout() {
+            Kakao.API.request({
+                url: '/v1/user/unlink',
+                success: function(response) {
+                    alert('로그아웃 되었습니다.');
+                    window.location.href='index.jsp'
+                },
+                fail: function(error) {
+                    console.log('로그아웃 미완료')
+                    console.log(error);
+                },
+            });
+        };
+        
+	const sion = document.querySelector('#kakaoLogout');
+        sion.addEventListener('click', kakaoLogout);
