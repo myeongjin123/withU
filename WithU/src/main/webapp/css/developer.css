@@ -36,6 +36,11 @@ a, a:hover {
     border-radius: 15px;
 }
 
+#pic{
+	width: 362px;
+	height: 482px;
+}
+
 .content .row {
     align-items: center;
 }
