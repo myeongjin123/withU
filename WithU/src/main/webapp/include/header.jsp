@@ -29,7 +29,7 @@ String id = (String) session.getAttribute("sId");
 	<header>
 		<div class="container-k">
 			<div class="row-k">
-				<a href="index.jsp"> <img src="images/withuLogo3.png" alt="logo">
+				<a href="index.jsp"> <img src="images/withuLogo.png" alt="logo">
 				</a>
 
 				<ul class="gnb-k">
@@ -51,8 +51,8 @@ String id = (String) session.getAttribute("sId");
 						<div class="log-content">
 							<div class="log-form">
 								<div>
-									<p class="log-title">With You</p>
-									<p class="log-title-a">Journey with Animals</p>
+									<p class="log-title"><img alt="logo" src="images/logotitle.png"></p>
+									<p class="log-title-a">: Journey with Animals</p>
 								</div>
 
 								<div class="log-main">
@@ -73,7 +73,7 @@ String id = (String) session.getAttribute("sId");
 
 									<div class="log-register">
 
-										<a href="#">ID/PW 찾기</a> <a href="#">회원 가입</a>
+										<a href="FindIdPw.jsp">ID/PW 찾기</a> <a href="register.jsp">회원 가입</a>
 									</div>
 
 									<p class="log-explain">소설 계정으로 게스트 로그인</p>
