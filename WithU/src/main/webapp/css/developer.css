@@ -39,6 +39,7 @@ a, a:hover {
 #pic{
 	width: 362px;
 	height: 482px;
+	object-fit: cover;
 }
 
 .content .row {

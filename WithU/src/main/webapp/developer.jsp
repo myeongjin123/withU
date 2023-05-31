@@ -401,19 +401,19 @@
         <div class="second">
 <div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
-                    <h1>Kang Woo Sung</h1>
+                    <h1>Hong Jeoung Won</h1>
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/myimg.png" alt="img1">
+                        <img src="images/홍정원.jpg" alt="img1" id="pic">
                         <div class="quick">
-                            <a href="https://github.com/rkddntjd7" target="_blank">
+                            <a href="https://github.com/jeoungwonhong" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://www.instagram.com/wooo.___/" target="_blank">
+                            <a href="https://www.instagram.com/alicehong0949 /" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=100008712871745" target="_blank">
+                            <a href="#" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                         </div>
@@ -421,21 +421,16 @@
                     <div class="content col-6 col-md-12">
                         <div class="top-content">
                         	<p>
-                        		프론트앤드 부분과 백앤드 부분을 둘 다 수행하며 많은 경험을 쌓을 수 있었습니다.
+                        		withU 게임 페이지의 게임파트로 참여하여 게임에 필요한 <span>동물캐릭터 제작</span>과<br/>
+                        		<span>javascript </span>를 주로한 카드뒤집기 게임을 제작하였습니다.
                         	</p>
                             <p>
-                                프론트 부분으로는 <span>html, css, javascript </span> 를 사용하여 메인페이지 헤더, 배너 부분 및 개발자 소개, <br />
-                                캐릭터 소개 페이지를 제작하였습니다.
-								제작 과정에서 <span> animate, bootstrap </span>등 다양한 오픈 소스들을 경험 할 수 있었고, <span>UI & UX </span>를 깊게 고민하여 스스로 디자인 하였습니다.
-
+                                카드뒤집기게임는 <span>랜덤으로 섞인</span> 카드들을 페어를 맞추는 게임으로 단계가 올라갈수록
+                                <br />시간제한이 5초씩 구현하였고, <span>kakao api</span>를 활용한 로그인, 로그아웃을 제작하였습니다. 
                             </p>
                             <p>
-                               백 엔드 부분으로는 <span>jsp</span>를 활용하여 session을 이용한 로그인, 로그아웃 기능을 구현하였고 <br />
-                               세부적으로는 아이디와 비밀번호 찾기 기능을 제작하였습니다. 
-                            </p>
-                            <p>
-                                <span>Git</span>을 사용하여 팀원들과 협업하였기 때문에 기본적인 Git 사용법들을 익히고 협업하는 과정에서 <br />
-                                효율적인 방법들을 고민하게되는 좋은 계기였습니다.
+                                익숙하지 않았던 <span>AWS</span>를 접목하여 새로운 시도를 해볼수 있는 기회가 되었고<br />
+                                완벽하지 않았던 <span>Git</span>의 새로운 기능들과 방버들을 알게되는 기회였습니다.
                             </p>
                         </div>
                         <ul>
@@ -443,35 +438,35 @@
                                 <div class="row">
                                     <i class="fa-solid fa-user"></i>
                                     <span>이름 :</span>
-                                    <p>강우성</p>
+                                    <p>홍정원</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <i class="fa-solid fa-calendar"></i>
                                     <span>생년월일 :</span>
-                                    <p>2000.02.08</p>
+                                    <p>2000.09.19</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <i class="fa-solid fa-location-dot"></i>
                                     <span>주소지 :</span>
-                                    <p>인천광역시 서구 아라동</p>
+                                    <p>경기도 김포시 구래동</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <i class="fa-solid fa-phone"></i>
                                     <span>연락처 :</span>
-                                    <p>010-4999-3289</p>
+                                    <p>010-3797-9939</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <i class="fa-solid fa-envelope"></i>
                                     <span>이메일 :</span>
-                                    <p>rkddntjd7@naver.com</p>
+                                    <p>alicehong1819@naver.com</p>
                                 </div>
                             </li>
                         </ul>
