@@ -2,17 +2,26 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="css/findIdPw.css">
 <body>
-	<form name="findscreen" method="post">
-		<label for="">이름</label>
-		<input type="text" name="name" placeholder="이름"/>
-		<label for="">전화번호</label>
-		<input type="text" name="phone" placeholder="전화번호 '-포함'" />
-		
-		<input type="submit" value="찾기" onclick="id_search()">
-		<input type="button" value="취소" onclick="location.href='FindIdPw.jsp'" />
-	</form>
-	
+<jsp:include page="/include/header.jsp"></jsp:include>
+	<div class="container-find">
+		<div class="row-find">
+			<img alt="logotitle" src="images/logotitle.png">
+			<h2 class="logotitle-find">: Journey with Animals</h2>
+			<form name="findscreen" method="post">
+				<div class="name">
+					<label for="" class="form-title-find"><i class="ri-user-3-line"></i></label>
+					<input class="from-txt-find" type="text" name="name" placeholder="이름"/>
+				</div>
+				<div class="tel">
+					<label for="" class="form-title-find"><i class="ri-smartphone-line"></i></label>
+					<input class="from-txt-find" type="text" name="phone" placeholder="전화번호 '-포함'" />
+				</div>
+				<input type="submit" class="search-find" value="아이디 / 비밀번호 찾기" onclick="id_search()">
+			</form>
+		</div>
+	</div>
 <script>
 	function id_search() {
 		var frm = document.findscreen;
