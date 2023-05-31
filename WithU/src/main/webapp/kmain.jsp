@@ -70,23 +70,23 @@ String kid = (String) session.getAttribute("kid");
         </div>
         
         <div class="hero">
-            <div class="char1">
-                <img class="character" src="./images/test-img.png" alt="test-img">
+			<div class="char1">
+                <img class="character" src="./images/cr-f.png" alt="cr">
             </div>
             <div class="char2">
-                <img class="character" src="./images/test-img.png" alt="test-img">
+                <img class="character" src="./images/ham-f.png" alt="ham">
             </div>
             <div class="char3">
-                <img class="character" src="./images/test-img.png" alt="test-img">
+                <img class="character" src="./images/qu-f.png" alt="qu">
             </div>
             <div class="char4">
-                <img class="character" src="./images/test-img.png" alt="test-img">
+                <img class="character" src="./images/ra-f.png" alt="ra">
             </div>
             <div class="char5">
-                <img class="character" src="./images/test-img.png" alt="test-img">
+                <img class="character" src="./images/rb-f.png" alt="rb">
             </div>
             <div class="char6">
-                <img class="character" src="./images/test-img.png" alt="test-img">
+                <img class="character" src="./images/home.png" alt="home">
             </div>
         </div>
             <!-- 도연 개발자 소개 + 풋터 -->
@@ -110,7 +110,7 @@ String kid = (String) session.getAttribute("kid");
                         <p>우리 XXTX는 같은 곳을 바라보고 서로가 서로를 발전시키기 위해 앞으로 나아가는 팀입니다.</p>
                     </div>
                     <div class="do-box">
-                        <a href="#">View more<span><i class="fa-solid fa-share"></i></span></a>
+                        <a href="developer.jsp">View more<span><i class="fa-solid fa-share"></i></span></a>
                     </div>
                 </div>
             </div>

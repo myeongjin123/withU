@@ -58,7 +58,7 @@
                         <p>우리 XXTX는 같은 곳을 바라보고 서로가 서로를 발전시키기 위해 앞으로 나아가는 팀입니다.</p>
                     </div>
                     <div class="do-box">
-                        <a href="#">View more<span><i class="fa-solid fa-share"></i></span></a>
+                        <a href="developer.jsp">View more<span><i class="fa-solid fa-share"></i></span></a>
                     </div>
                 </div>
             </div>
