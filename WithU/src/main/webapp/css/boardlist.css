@@ -170,3 +170,7 @@
 	.bold{
 		font-weight: bold;
 	}
+	
+	#subleft{
+		text-align: left;
+	}

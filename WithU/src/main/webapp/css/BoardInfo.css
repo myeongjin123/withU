@@ -84,8 +84,12 @@ body {
 	margin: 10px auto;
 	border: 1px solid #444;
 	border-radius: 3px;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 
+}
+
+.full-comment{
+	margin-bottom: 100px;	
 }
 
 .coment-head{

@@ -71,7 +71,7 @@
 	}
 </script>
 
-
+<div class="full-comment">
 	<div class="comment">
 	<form action="comment.do" method="post" name="frm">
 		<input type="hidden" name="num" value="1">
@@ -135,6 +135,7 @@
     }
   }
 %>
+</div>
     <jsp:include page="/include/footer.jsp"></jsp:include>
 
 
