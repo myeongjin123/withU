@@ -420,7 +420,7 @@
                             <a href="https://github.com/jeoungwonhong" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://www.instagram.com/alicehong0949 /" target="_blank">
+                            <a href="https://www.instagram.com/alicehong0949/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                             <a href="#" target="_blank">
