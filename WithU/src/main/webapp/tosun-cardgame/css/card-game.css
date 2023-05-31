@@ -76,6 +76,9 @@ button:hover {
 .menu-nav-reset {
     justify-content: flex-end;
 }
+.ri-home-3-fill {
+	color: #fff;
+}
 .game {
     display: flex;
     justify-content: center;
