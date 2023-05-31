@@ -32,7 +32,7 @@ body {
 	right: 60px;
 }
 .do-home:hover{
-	color: #94b7f7;
+	color: #fc5b3a;
 }
 .do-home-up{
 	position: absolute;
@@ -43,7 +43,7 @@ body {
 	right: 50px;
 }
 .do-home-up:hover{
-	color: #94b7f7;
+	color: #fc5b3a;
 }
 .do-reset{
 	position: absolute;
@@ -55,7 +55,7 @@ body {
 	right: 10px;
 }
 .do-reset i:hover {
-	color: #94b7f7;
+	color: #fc5b3a;
 }
 .do-title{
 	border-top: 2px solid #151534;
@@ -159,5 +159,5 @@ body {
 	transition: all 0.2s;
 }
 .do-write:hover,.do-cancel:hover{
-	background: #94b7f7;
+	background: #fc5b3a;
 }

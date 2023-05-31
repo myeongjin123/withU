@@ -4,11 +4,10 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/developer.css">
-    
-<div class="first">
+				<div class="first">
                         <div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
-                    <h1>CHA MYEONGJIN</h1>
+                    <h1>Cha Myeong Jin</h1>
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
@@ -33,7 +32,7 @@
                                 프론트 쪽에서는 HTML과 CSS, Javascript, Jquery를 활용하여 MAIN페이지의 HERO부분을 담당하였습니다.
                             </p>
                             <p>
-                               백엔드 쪽에서는 <span>MySql 데이터 베이스</span>를 연결하여 회원가입 부분을 담당하였고 <span>JSP</span>를 사용하여 <span>Id중복확인</span> 기능을 구현하였습니다.
+                               백엔드 쪽에서는 <span>MySql 데이터 베이스</span>를 연결하여 회원가입 부분을 담당하였고 <span>JSP</span>를 사용하여 <span>ID중복확인</span> 기능을 구현하였습니다.
                             </p>
                             <p>
                                이 프로젝트를 통하여 전반적인 <span>JSP</span>의 사용법과 효용성을 알 수 있었고 팀원들과의 <span>소통</span>과 <span>협업</span>의 중요성을 깨달았습니다.
@@ -82,13 +81,114 @@
                 </div>
             </div>
         </div>
-        <div class="second">
+        
+        
+                <div class="second">
+			<div class="container-k">
+                <div class="title ani_fadeInDown aniUtil_active">
+                    <h1>Kang Woo Sung</h1>
+                </div>
+                <div class="row">
+                    <div class="imgbox col-6 col-md-12">
+                        <img src="images/myimg.png" alt="img1">
+                        <div class="quick">
+                            <a href="https://github.com/rkddntjd7" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/wooo.___/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100008712871745" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content col-6 col-md-12">
+                        <div class="top-content">
+                        	<p>
+                        		프론트앤드 부분과 백앤드 부분을 둘 다 수행하며 많은 경험을 쌓을 수 있었습니다.
+                        	</p>
+                            <p>
+                                프론트 부분으로는 <span>html, css, javascript </span> 를 사용하여 메인페이지 헤더, 배너 부분 및 개발자 소개, <br />
+                                캐릭터 소개 페이지를 제작하였습니다.
+								제작 과정에서 <span> animate, bootstrap </span>등 다양한 오픈 소스들을 경험 할 수 있었고, <span>UI & UX </span>를 깊게 고민하여 스스로 디자인 하였습니다.
+
+                            </p>
+                            <p>
+                               백 엔드 부분으로는 <span>jsp</span>를 활용하여 session을 이용한 로그인, 로그아웃 기능을 구현하였고 <br />
+                               세부적으로는 아이디와 비밀번호 찾기 기능을 제작하였습니다. 
+                            </p>
+                            <p>
+                                <span>Git</span>을 사용하여 팀원들과 협업하였기 때문에 기본적인 Git 사용법들을 익히고 협업하는 과정에서 <br />
+                                효율적인 방법들을 고민하게되는 좋은 계기였습니다.
+                            </p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>이름 :</span>
+                                    <p>강우성</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <span>생년월일 :</span>
+                                    <p>2000.02.08</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>주소지 :</span>
+                                    <p>인천광역시 서구 아라동</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>연락처 :</span>
+                                    <p>010-4999-3289</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>이메일 :</span>
+                                    <p>rkddntjd7@naver.com</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="first">
             <div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
                     <h1>Kim Do Yeon</h1>
                 </div>
                 <div class="row">
-                    <div class="content col-6 col-md-12">
+                    
+                    <div class="imgbox col-6 col-md-12">
+                        <img src="images/김도연.jpg" alt="img2" id="pic">
+                        <div class="quick">
+                            <a href="https://github.com/rkddntjd7" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/wooo.___/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100008712871745" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                   
+                   <div class="content col-6 col-md-12">
                         <div class="top-content">
                             <p>
                                 풀스택 XXTX 스터디원들과 함께 협업하며 JS와 CSS를 적극 활용하고 응용하며 웹팀 메인의 바텀과 풋터,로그인,게시판 파트의 UI&UX를 고민하며 <span>직접 디자인</span> 하였습니다.
@@ -142,25 +242,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="imgbox col-6 col-md-12">
-                        <img src="images/김도연.jpg" alt="img2" id="pic">
-                        <div class="quick">
-                            <a href="https://github.com/rkddntjd7" target="_blank">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="https://www.instagram.com/wooo.___/" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=100008712871745" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        </div>
-                    </div>
-                   
+                 
                 </div>
             </div>
         </div>
-        <div class="first">
+        <div class="second">
             <div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
                     <h1>Jeon Yeo Kyeong</h1>
@@ -242,83 +328,7 @@
                 </div>
             </div>
         </div>
-        <div class="second">
-            <div class="container-k">
-                <div class="title ani_fadeInDown aniUtil_active">
-                    <h1>Kang Woo Sung</h1>
-                </div>
-                <div class="row">
-                    <div class="content col-6 col-md-12">
-                        <div class="top-content">
-                            <p>
-                                백 엔드 개발자와 협업하는 과정에 관해 많이 배울 수 있었습니다. 필요한 명세를 문서로 작성하여 소통하였고, 필요한 지식도 함께 공유하며 학습할 수 있었습니다.
-                            </p>
-                            <p>
-                               <span>UI & UX</span> 를 깊게 고민하며 스스로 디자인하였고, 그 과정에서 canvas API 등을 활용하여 복잡한 애니메이션들을 구현했습니다.
-                            </p>
-                            <p>
-                                복수 페이지의 <span>Next.js</span>  웹사이트를 만들면서 <span>라우팅, CSR, SSR, SSG</span> 에 대한 개념을 더욱 확실하게 숙지할 수 있었습니다.
-                            </p>
-                            <p>
-                               <span>GA</span> 를 설치하여 트래픽을 파악하고 사용자의 행동을 이벤트 단위로 분석하는 방법을 알게 되었습니다.
-                            </p>
-                        </div>
-                        <ul>
-                            <li>
-                                <div class="row">
-                                    <i class="fa-solid fa-user"></i>
-                                    <span>이름 :</span>
-                                    <p>강우성</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="row">
-                                    <i class="fa-solid fa-calendar"></i>
-                                    <span>생년월일 :</span>
-                                    <p>2000.02.08</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="row">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span>주소지 :</span>
-                                    <p>인천광역시 서구 아라동</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="row">
-                                    <i class="fa-solid fa-phone"></i>
-                                    <span>연락처 :</span>
-                                    <p>010-4999-3289</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="row">
-                                    <i class="fa-solid fa-envelope"></i>
-                                    <span>이메일 :</span>
-                                    <p>rkddntjd7@naver.com</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="imgbox col-6 col-md-12">
-                        <img src="images/myimg.png" alt="img1">
-                        <div class="quick">
-                            <a href="https://github.com/rkddntjd7" target="_blank">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="https://www.instagram.com/wooo.___/" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=100008712871745" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
+        
         <div class="first">
             <div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
@@ -398,22 +408,22 @@
                 </div>
             </div>
         </div>
-        <div class="second">
-<div class="container-k">
+        <div class="second" id="devel-last">
+			<div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
-                    <h1>Kang Woo Sung</h1>
+                    <h1>Hong Jeoung Won</h1>
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/myimg.png" alt="img1">
+                        <img src="images/홍정원.jpg" alt="img1" id="pic">
                         <div class="quick">
-                            <a href="https://github.com/rkddntjd7" target="_blank">
+                            <a href="https://github.com/jeoungwonhong" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://www.instagram.com/wooo.___/" target="_blank">
+                            <a href="https://www.instagram.com/alicehong0949/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=100008712871745" target="_blank">
+                            <a href="#" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                         </div>
@@ -421,21 +431,16 @@
                     <div class="content col-6 col-md-12">
                         <div class="top-content">
                         	<p>
-                        		프론트앤드 부분과 백앤드 부분을 둘 다 수행하며 많은 경험을 쌓을 수 있었습니다.
+                        		withU 게임 페이지의 게임파트로 참여하여 게임에 필요한 <span>동물캐릭터 제작</span>과<br/>
+                        		<span>javascript </span>를 주로한 카드뒤집기 게임을 제작하였습니다.
                         	</p>
                             <p>
-                                프론트 부분으로는 <span>html, css, javascript </span> 를 사용하여 메인페이지 헤더, 배너 부분 및 개발자 소개, <br />
-                                캐릭터 소개 페이지를 제작하였습니다.
-								제작 과정에서 <span> animate, bootstrap </span>등 다양한 오픈 소스들을 경험 할 수 있었고, <span>UI & UX </span>를 깊게 고민하여 스스로 디자인 하였습니다.
-
+                                카드뒤집기게임는 <span>랜덤으로 섞인</span> 카드들을 페어를 맞추는 게임으로 단계가 올라갈수록
+                                <br />시간제한이 5초씩 구현하였고, <span>kakao api</span>를 활용한 로그인, 로그아웃을 제작하였습니다. 
                             </p>
                             <p>
-                               백 엔드 부분으로는 <span>jsp</span>를 활용하여 session을 이용한 로그인, 로그아웃 기능을 구현하였고 <br />
-                               세부적으로는 아이디와 비밀번호 찾기 기능을 제작하였습니다. 
-                            </p>
-                            <p>
-                                <span>Git</span>을 사용하여 팀원들과 협업하였기 때문에 기본적인 Git 사용법들을 익히고 협업하는 과정에서 <br />
-                                효율적인 방법들을 고민하게되는 좋은 계기였습니다.
+                                익숙하지 않았던 <span>AWS</span>를 접목하여 새로운 시도를 해볼수 있는 기회가 되었고<br />
+                                완벽하지 않았던 <span>Git</span>의 새로운 기능들과 방버들을 알게되는 기회였습니다.
                             </p>
                         </div>
                         <ul>
@@ -443,35 +448,35 @@
                                 <div class="row">
                                     <i class="fa-solid fa-user"></i>
                                     <span>이름 :</span>
-                                    <p>강우성</p>
+                                    <p>홍정원</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <i class="fa-solid fa-calendar"></i>
                                     <span>생년월일 :</span>
-                                    <p>2000.02.08</p>
+                                    <p>2000.09.19</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <i class="fa-solid fa-location-dot"></i>
                                     <span>주소지 :</span>
-                                    <p>인천광역시 서구 아라동</p>
+                                    <p>경기도 김포시 구래동</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <i class="fa-solid fa-phone"></i>
                                     <span>연락처 :</span>
-                                    <p>010-4999-3289</p>
+                                    <p>010-3797-9939</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="row">
                                     <i class="fa-solid fa-envelope"></i>
                                     <span>이메일 :</span>
-                                    <p>rkddntjd7@naver.com</p>
+                                    <p>alicehong1819@naver.com</p>
                                 </div>
                             </li>
                         </ul>
