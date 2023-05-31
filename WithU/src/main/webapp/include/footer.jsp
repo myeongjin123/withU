@@ -11,12 +11,12 @@
                 <div class="Follow-us">
                     <h1>Follow Us</h1>
                     <ul>
-                        <li><a href="#">강우성<span><i class="fa-brands fa-github"></i></span></a></li>
+                        <li><a href="https://github.com/rkddntjd7">강우성<span><i class="fa-brands fa-github"></i></span></a></li>
                         <li><a href="#">김도연<span><i class="fa-brands fa-github"></i></span></a></li>
-                        <li><a href="#">전여경<span><i class="fa-brands fa-github"></i></span></a></li>
+                        <li><a href="https://github.com/jeon00000">전여경<span><i class="fa-brands fa-github"></i></span></a></li>
                         <li><a href="#">차명진<span><i class="fa-brands fa-github"></i></span></a></li>
-                        <li><a href="#">최누리<span><i class="fa-brands fa-github"></i></span></a></li>
-                        <li><a href="#">홍정원<span><i class="fa-brands fa-github"></i></span></a></li>
+                        <li><a href="https://github.com/chlsnfl">최누리<span><i class="fa-brands fa-github"></i></span></a></li>
+                        <li><a href="https://github.com/jeoungwonhong">홍정원<span><i class="fa-brands fa-github"></i></span></a></li>
                     </ul>
                 </div>
                 <div class="do-down">
