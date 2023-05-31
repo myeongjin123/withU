@@ -21,7 +21,7 @@
                 </div>
                 <div class="do-down">
                     <h1>PLAY-GAME</h1>
-                    <a href="#">
+                    <a href="gamePage.jsp">
                         <i class="fa-regular fa-circle-play"></i>
                     </a>
                 </div>
