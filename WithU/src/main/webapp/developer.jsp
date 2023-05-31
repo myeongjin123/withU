@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/developer.css">
-    
 				<div class="first">
                         <div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
@@ -409,7 +408,7 @@
                 </div>
             </div>
         </div>
-        <div class="second">
+        <div class="second" id="devel-last">
 			<div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
                     <h1>Kang Woo Sung</h1>
