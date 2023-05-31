@@ -30,7 +30,7 @@ video {
 .hero{
     width: 100%;
     height: 700px;
-    background: url(../images/space.jpg) no-repeat;
+    background: url(../images/space_background.jpeg) no-repeat;
     background-size: 100%;
     position: relative;
     z-index: 0;
