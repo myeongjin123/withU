@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body {
+	background: #2d312e;
+}
+header {
+	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2)
+}
+.container-find {
+	margin: 50px auto;
+	padding-top: 70px;
+    width: 698px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgb(0, 0, 0);
+}
+.row-find {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    align-items: center;
+}
+.logotitle-find {
+	margin: 10px 0 50px;
+}
+.name, .tel {
+	height: 40px;
+	display: flex;
+	margin-bottom: 15px;
+}
+.form-title-find {
+	border: 1px solid #2d312e;
+    border-top: none;
+    border-left: none;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    padding: 7px 7px 0px;
+    display: inline-block;
+}
+input[type="text"].from-txt-find {
+	height: 40px;
+	width: 390px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #2d312e;
+    padding-left: 10px;
+}
+input[type="submit"].search-find {
+	margin-top: 20px;
+	background: #2d312e;
+	color: #fff;
+	width: 440px;
+	height: 40px;
+	border-radius: 10px;
+}
