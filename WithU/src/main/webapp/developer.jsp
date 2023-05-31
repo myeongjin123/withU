@@ -13,13 +13,13 @@
                     <div class="imgbox col-6 col-md-12">
                         <img src="images/차명진.jpg" alt="img1" id="pic">
                         <div class="quick">
-                            <a href="https://github.com/jeon00000" target="_blank">
+                            <a href="https://github.com/myeongjin123" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://www.instagram.com/__myeongjin__99/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://www.facebook.com/profile.php?id=100008867550225" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                         </div>
