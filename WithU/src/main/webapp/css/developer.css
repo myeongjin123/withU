@@ -84,7 +84,13 @@ a, a:hover {
 .first {
     background: #ededed;
 }
-
+.second,.first{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+#devel-last{
+	padding-bottom: 110px;
+}
 
 
 @media (max-width : 768px) {

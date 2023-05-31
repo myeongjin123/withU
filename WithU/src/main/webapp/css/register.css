@@ -9,7 +9,7 @@
 	font-family: 'Nanum Gothic', sans-serif;
 }
 
-h1{
+.reg-title{
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 20px;
@@ -18,7 +18,7 @@ h1{
 	font-size: 60px;
 }
 
-form{
+.register{
 	margin: 50px 0;
 	
 }
@@ -38,7 +38,7 @@ label{
 	text-align: center;
 }
 
-input{
+.input{
 	width: 400px;
 	height: 50px;
 	border: none;
@@ -48,7 +48,13 @@ input{
 	border: 1px solid #ddd;
 }
 
-button{
+button:hover{
+	background: #fc5b3a;
+}
+
+.top-btn{
+	margin-left: 10px;
+	font-size: 14px;
 	width: 100px;
 	height: 50px;
 	background: #eb5537;
@@ -57,18 +63,15 @@ button{
 	color: #fff;
 }
 
-button:hover{
-	background: #fc5b3a;
-}
-
-.top-btn{
-	margin-left: 10px;
-	font-size: 14px;
-}
-
 .under-btn{
 	margin: 50px 30px;
 	width: 150px;
+	width: 100px;
+	height: 50px;
+	background: #eb5537;
+	border: none;
+	cursor: pointer;
+	color: #fff;
 }
 
 .ok{

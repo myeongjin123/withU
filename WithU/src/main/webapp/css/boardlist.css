@@ -11,7 +11,7 @@
 	
 	h1{
 		text-align: center;
-		font-size: 45px;
+		
 	}
 	
 	.form-right{
@@ -23,6 +23,7 @@
 	}
 	
 	.m-100{
+		font-size: 45px;
 		margin-top: 100px;
 		margin-bottom: 100px;
 	}
