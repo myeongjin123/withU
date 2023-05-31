@@ -110,7 +110,7 @@ video {
 .hero img{
     display: none;
     position: absolute;
-    top: 90px;
+    top: 90   px;
     left: 55px;
     width: 100px;
     height: 130px;
