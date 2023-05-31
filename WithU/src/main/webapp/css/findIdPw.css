@@ -38,7 +38,7 @@ header {
     padding: 7px 7px 0px;
     display: inline-block;
 }
-input[type="text"].from-txt-find {
+input[type="text"].from-txt-find, .result {
 	height: 40px;
 	width: 390px;
     background: none;
@@ -46,7 +46,7 @@ input[type="text"].from-txt-find {
     border-bottom: 1px solid #2d312e;
     padding-left: 10px;
 }
-input[type="submit"].search-find {
+input[type="submit"].search-find, input[type="button"].log {
 	margin-top: 20px;
 	background: #2d312e;
 	color: #fff;
