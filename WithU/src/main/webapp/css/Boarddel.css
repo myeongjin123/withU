@@ -30,7 +30,7 @@ body {
 	right: 20%
 }
 .do-home:hover{
-	color: #94b7f7;
+	color: #fc5b3a;
 }
 .do-cpw{
 	border-top: 2px solid #151534;
@@ -61,5 +61,5 @@ body {
 	transition: all 0.2s;
 }
 .do-de:hover{
-	background: #94b7f7;
+	background: #fc5b3a;
 }

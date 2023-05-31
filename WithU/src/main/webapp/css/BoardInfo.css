@@ -32,7 +32,7 @@ body {
 	right: 0%
 }
 .do-home:hover{
-	color: #94b7f7;
+	color: #fc5b3a;
 }
 .do-subject{
 	text-align: left;
@@ -74,7 +74,7 @@ body {
 	border: none;
 }
 .do-update:hover, .do-del:hover{
-	background: #94b7f7;
+	background: #fc5b3a;
 }
 /*-----------------------------------comment----------------------------*/
 
@@ -146,7 +146,7 @@ body {
 
 #commentok:hover, 
 #commentno:hover{
-	background: #94b7f7;
+	background: #fc5b3a;
 }
 
 .comment-button{
