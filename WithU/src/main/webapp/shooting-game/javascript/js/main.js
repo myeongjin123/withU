@@ -218,7 +218,11 @@ main();
 
 }
 
-
+       $(function(){
+            $('#start-button').click(function(){
+                $('.main').css("display", "none");
+            })
+        });
 
 
 
