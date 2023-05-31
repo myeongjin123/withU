@@ -46,7 +46,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="shooting-game/javascript/js_game.jsp" class="char-font">자스와 함께 게임하러 가기</a> 
+                      	<a href="javascript:void(0)" class="char-font" onclick="jspopup();">자스와 함께 게임하러 가기</a> 
                       	<img src="shooting-game/javascript/images/potato-b.png">
                       </span>
                       <br>
@@ -74,7 +74,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="shooting-game/java/java_game.jsp" class="char-font">자바와 함께 게임하러 가기</a> 
+                      	<a href="javascript:void(0)" class="char-font" onclick="javapopup();">자바와 함께 게임하러 가기</a> 
                       	<img src="shooting-game/java/images/hong-b.png">
                       </span>
                       <br>
@@ -102,7 +102,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="shooting-game/css/css_game.jsp" class="char-font">에스와 함께 게임하러 가기</a> 
+                      	<a href="javascript:void(0)" class="char-font" onclick="csspopup();">에스와 함께 게임하러 가기</a> 
                       	<img src="shooting-game/css/images/do-b.png">
                       </span>
                       <br>
@@ -130,7 +130,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="shooting-game/html/html_game.jsp" class="char-font">에체멜과 함께 게임하러 가기</a> 
+                      	<a href="javascript:void(0)" class="char-font" onclick="htmlpopup();">에체멜과 함께 게임하러 가기</a> 
                       	<img src="images/img/strawberry.png">
                       </span>
                       <br>
@@ -158,7 +158,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="shooting-game/spring/spring_game.jsp" class="char-font">스프링과 함께 게임하러 가기</a> 
+                      	<a href="javascript:void(0)" class="char-font" onclick="springpopup();">스프링과 함께 게임하러 가기</a> 
                       	<img src="images/img/carrot.png">
                       </span>
                       <br>
@@ -186,7 +186,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="shooting-game/gitHub/git_game.jsp" class="char-font">허브와 함께 게임하러 가기</a> 
+                      	<a href="javascript:void(0)" class="char-font" onclick="hubpopup();">허브와 함께 게임하러 가기</a> 
                       	<img src="images/img/fire.png">
                       </span>
                       <br>
@@ -202,5 +202,5 @@
                 </div>
             </div>
             </div>
-
+<script src="js/popup.js"></script>
 <jsp:include page="/include/footer.jsp"></jsp:include>
