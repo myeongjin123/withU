@@ -32,7 +32,7 @@ body {
 	right: 0%
 }
 .do-home:hover{
-	color: #94b7f7;
+	color: #fc5b3a;
 }
 .do-subject{
 	text-align: left;
@@ -74,7 +74,7 @@ body {
 	border: none;
 }
 .do-update:hover, .do-del:hover{
-	background: #94b7f7;
+	background: #fc5b3a;
 }
 /*-----------------------------------comment----------------------------*/
 
@@ -84,8 +84,12 @@ body {
 	margin: 10px auto;
 	border: 1px solid #444;
 	border-radius: 3px;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 
+}
+
+.full-comment{
+	margin-bottom: 100px;	
 }
 
 .coment-head{
@@ -142,7 +146,7 @@ body {
 
 #commentok:hover, 
 #commentno:hover{
-	background: #94b7f7;
+	background: #fc5b3a;
 }
 
 .comment-button{

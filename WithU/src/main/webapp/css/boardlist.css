@@ -99,14 +99,14 @@
 		display: inline-block;
 		padding: 8px 20px;
 		border: none;
-		background: #151534;
+		background: #eb5537;
 		color: #fff;
 		cursor: pointer;
 		transition: all 0.2s;
 	}
 	
 	button:hover{
-		background: #94b7f7;
+		background: #fc5b3a;
 	}
 	
 	.flex-select{
@@ -165,9 +165,13 @@
 	}
 	
 	#a-now:hover{
-		background-color: #94b7f7;
+		background-color: #fc5b3a;
 	}
 	
 	.bold{
 		font-weight: bold;
+	}
+	
+	#subleft{
+		text-align: left;
 	}

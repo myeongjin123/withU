@@ -73,7 +73,7 @@
 	    <!-- 게시판 리스트 출력 -->
 	    <div class="form-center border-bottom1">
 	       <span class="w100 bold"><%= bean.getNum() %></span>
-	       <span class="w400"><a href="BoardInfoControl.do?num=<%= bean.getNum() %>"><%= bean.getSubject() %></a></span>
+	       <span class="w400" id="subleft"><a href="BoardInfoControl.do?num=<%= bean.getNum() %>"><%= bean.getSubject() %></a></span>
 	       <span class="w150"><%= bean.getWriter() %></span>
 	       <span class="w150"><%= bean.getWdate() %></span>
 	       <span class="w100"><%= bean.getReadcount() %></span>
