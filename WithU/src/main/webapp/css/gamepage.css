@@ -1,0 +1,39 @@
+.container{
+	width : 1440px;
+	margin : 0 auto;
+	height : auto;
+}
+.game-ul{
+	list-style: none;
+	height : 735.68px;
+	width : 100%;
+	overflow : hidden;
+    display: flex;
+    margin-left : 30px;
+    margin-right : 30px;
+}
+.game-li{
+	list-style : none;
+}
+#game-img{
+	width : 640px;
+	margin-right : 10px;
+	filter : grayscale(100%);
+}
+#game-img:hover{
+	filter : grayscale(0%);
+}
+.shooting-game img{
+	position :relative;
+	width : 640px;
+}
+.shooting-game-button a img{
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform: translate(1%, -70%);
+	filter : grayscale(100%);
+}
+.shooting-game-button a img:hover{
+	filter : grayscale(0%);
+}

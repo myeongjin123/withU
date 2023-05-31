@@ -46,8 +46,8 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#" class="char-font">자스와 함께 게임하러 가기</a> 
-                      	<img src="gameteam_minigame/cr_minigame/images/potato-b.png">
+                      	<a href="shooting-game/javascript/js_game.jsp" class="char-font">자스와 함께 게임하러 가기</a> 
+                      	<img src="shooting-game/javascript/images/potato-b.png">
                       </span>
                       <br>
                       <span class="char-img">
@@ -74,8 +74,8 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#" class="char-font">자바와 함께 게임하러 가기</a> 
-                      	<img src="gameteam_minigame/ham_minigame/images/hong-b.png">
+                      	<a href="shooting-game/java/java_game.jsp" class="char-font">자바와 함께 게임하러 가기</a> 
+                      	<img src="shooting-game/java/images/hong-b.png">
                       </span>
                       <br>
                       <span class="char-img">
@@ -102,8 +102,8 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#" class="char-font">에스와 함께 게임하러 가기</a> 
-                      	<img src="gameteam_minigame/qu_minigame/images/do-b.png">
+                      	<a href="shooting-game/css/css_game.jsp" class="char-font">에스와 함께 게임하러 가기</a> 
+                      	<img src="shooting-game/css/images/do-b.png">
                       </span>
                       <br>
                       <span class="char-img">
@@ -130,7 +130,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#" class="char-font">에체멜과 함께 게임하러 가기</a> 
+                      	<a href="shooting-game/html/html_game.jsp" class="char-font">에체멜과 함께 게임하러 가기</a> 
                       	<img src="images/img/strawberry.png">
                       </span>
                       <br>
@@ -158,7 +158,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#" class="char-font">스프링과 함께 게임하러 가기</a> 
+                      	<a href="shooting-game/spring/spring_game.jsp" class="char-font">스프링과 함께 게임하러 가기</a> 
                       	<img src="images/img/carrot.png">
                       </span>
                       <br>
@@ -186,7 +186,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#" class="char-font">허브와 함께 게임하러 가기</a> 
+                      	<a href="shooting-game/gitHub/git_game.jsp" class="char-font">허브와 함께 게임하러 가기</a> 
                       	<img src="images/img/fire.png">
                       </span>
                       <br>
