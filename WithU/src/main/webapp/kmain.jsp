@@ -29,7 +29,7 @@ String kid = (String) session.getAttribute("kid");
 	<header>
 		<div class="container-k">
 			<div class="row-k">
-				<a href="index.jsp"> <img src="images/withuLogo3.png" alt="logo">
+				<a href="index.jsp"> <img src="images/withuLogo.png" alt="logo">
 				</a>
 
 				<ul class="gnb-k">
