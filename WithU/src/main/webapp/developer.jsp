@@ -176,13 +176,13 @@
                     <div class="imgbox col-6 col-md-12">
                         <img src="images/김도연.jpg" alt="img2" id="pic">
                         <div class="quick">
-                            <a href="https://github.com/rkddntjd7" target="_blank">
+                            <a href="https://github.com/K-DoYeon" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://www.instagram.com/wooo.___/" target="_blank">
+                            <a href="https://www.instagram.com/noey_od1002/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=100008712871745" target="_blank">
+                            <a href="#" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                         </div>
