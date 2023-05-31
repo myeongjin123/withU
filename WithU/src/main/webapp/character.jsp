@@ -46,7 +46,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#">자스와 함께 게임하러 가기</a> 
+                      	<a href="#" class="char-font">자스와 함께 게임하러 가기</a> 
                       	<img src="gameteam_minigame/cr_minigame/images/potato-b.png">
                       </span>
                       <br>
@@ -74,7 +74,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#">자바와 함께 게임하러 가기</a> 
+                      	<a href="#" class="char-font">자바와 함께 게임하러 가기</a> 
                       	<img src="gameteam_minigame/ham_minigame/images/hong-b.png">
                       </span>
                       <br>
@@ -102,7 +102,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#">에스와 함께 게임하러 가기</a> 
+                      	<a href="#" class="char-font">에스와 함께 게임하러 가기</a> 
                       	<img src="gameteam_minigame/qu_minigame/images/do-b.png">
                       </span>
                       <br>
@@ -130,7 +130,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#">에체멜과 함께 게임하러 가기</a> 
+                      	<a href="#" class="char-font">에체멜과 함께 게임하러 가기</a> 
                       	<img src="images/img/strawberry.png">
                       </span>
                       <br>
@@ -158,7 +158,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#">스프링과 함께 게임하러 가기</a> 
+                      	<a href="#" class="char-font">스프링과 함께 게임하러 가기</a> 
                       	<img src="images/img/carrot.png">
                       </span>
                       <br>
@@ -186,7 +186,7 @@
                       </p>
                       
                       <span class="game-link">
-                      	<a href="#">허브와 함께 게임하러 가기</a> 
+                      	<a href="#" class="char-font">허브와 함께 게임하러 가기</a> 
                       	<img src="images/img/fire.png">
                       </span>
                       <br>

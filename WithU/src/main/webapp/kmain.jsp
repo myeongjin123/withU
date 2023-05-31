@@ -13,9 +13,6 @@ String kid = (String) session.getAttribute("kid");
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>main</title>
-<link
-	href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-	rel="stylesheet">
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
 	integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -32,7 +29,7 @@ String kid = (String) session.getAttribute("kid");
 	<header>
 		<div class="container-k">
 			<div class="row-k">
-				<a href="index.jsp"> <img src="images/withuLogo3.png" alt="logo">
+				<a href="index.jsp"> <img src="images/withuLogo.png" alt="logo">
 				</a>
 
 				<ul class="gnb-k">
@@ -63,11 +60,12 @@ String kid = (String) session.getAttribute("kid");
             <video src="images/-82659.mp4" autoplay loop muted></video>
             <div class="textbox-k">
                 <h1>Let's Start Game!!!</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
-                    when an unknown printer took a galley of type and scrambled it to make a type <br>
-                    specimen book. It has survived not only five centuries, <br>
-                    but also the leap into electroni</p>
+                <p>Once upon a time, in a vast galaxy, animals embarked on a cosmic quest for new planet. <br />
+                With courage and curiosity, they soared through the infinite expanse, guided by the twinkling stars. <br />
+                Together, they explored distant planets, each uniquely suited for their needs. <br />
+                The lion found a majestic savannah, the dolphin a shimmering ocean, and the eagle a boundless sky. <br />
+                United by their shared journey, the animals discovered that in the vastness of the universe, there's a place for every creature to call home. <br />
+                And so, they lived happily ever after among the stars.</p>
             </div>
         </div>
         

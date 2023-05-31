@@ -13,7 +13,7 @@
                 Together, they explored distant planets, each uniquely suited for their needs. <br />
                 The lion found a majestic savannah, the dolphin a shimmering ocean, and the eagle a boundless sky. <br />
                 United by their shared journey, the animals discovered that in the vastness of the universe, there's a place for every creature to call home. <br />
-                And so, they lived happily ever after among the stars.
+                And so, they lived happily ever after among the stars.</p>
             </div>
         </div>
         
