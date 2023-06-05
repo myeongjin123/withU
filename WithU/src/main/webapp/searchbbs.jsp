@@ -9,10 +9,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<<link rel="stylesheet" href="css/boardlist.css">
+<link rel="stylesheet" href="css/boardlist.css">
 </head>
 <body>
-	<h1 class="m-100">공지사항</h1>
+<jsp:include page="/include/header.jsp"></jsp:include>
+<div class="body">
+	<h1 class="m-100">게시판</h1>
     	<!-- board start -->
 	    <div class="border-top0">
 	        <span class="w100">번호</span>
@@ -94,6 +96,7 @@
               %>
             </p>
  
-
+</div>
+	<jsp:include page="/include/footer.jsp"></jsp:include>
 </body>
 </html>
