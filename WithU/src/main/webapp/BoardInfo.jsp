@@ -6,9 +6,9 @@
 <%@ page import="java.text.SimpleDateFormat" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%-- <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %> 
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %> --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,8 +44,8 @@
 	pageContext.setAttribute("br", "<br/>");
 	pageContext.setAttribute("cn", "\n");
 %>
-		<div class="do-context">
-			<p>${fn:replace(bean.content, cn, br)}</p>
+		<div class="do-context" id="textarea">
+			<pre>${ bean.content }</pre>
 		</div>
 		
 		<div class="do-button">

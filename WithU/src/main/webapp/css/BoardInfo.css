@@ -57,10 +57,10 @@ body {
 	border-bottom: 1px solid #151534;
 	text-align: left;
 }
-.do-context p {
+.do-context pre {
 	margin: 30px 0;
 	min-height: 200px;
-	
+	white-space: pre-wrap;
 }
 .do-button{
 	padding: 50px 0px 0px 0px;
