@@ -2,9 +2,9 @@
     pageEncoding="UTF-8"%>
 <%@page import="board.BoardBean"%>
 <%@page import="java.util.Vector"%>
-<%@page import="board.BoardDAO"%>
+<%@page import="board.BoardDAO"%><%-- 
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %> --%>
 <!DOCTYPE html>
 <html>
 <head>
