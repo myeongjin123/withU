@@ -15,144 +15,144 @@ body {
     margin-top: 100px;
 }
 .do-co{
-	text-align: center;
-	position: relative;
+   text-align: center;
+   position: relative;
 }
 .do-co h1{
-	font-size: 40px;
-	padding-bottom: 70px;
-	border-bottom: 1px solid #151534;
+   font-size: 40px;
+   padding-bottom: 70px;
+   border-bottom: 1px solid #151534;
 }
 .do-home{
-	position: absolute;
-	text-decoration: none;
-	color: #151534;
-	font-size: 28px;
-	top: 12%;
-	right: 0%
+   position: absolute;
+   text-decoration: none;
+   color: #151534;
+   font-size: 28px;
+   top: 12%;
+   right: 0%
 }
 .do-home:hover{
-	color: #fc5b3a;
+   color: #fc5b3a;
 }
 .do-subject{
-	text-align: left;
+   text-align: left;
 }
 .do-title h2{
-	font-size: 30px;
+   font-size: 30px;
 }
 .do-info{
-	display: flex;
-	color: #999;
-	justify-content: space-between;
-	border-bottom: 1px solid #aaa;
+   display: flex;
+   color: #999;
+   justify-content: space-between;
+   border-bottom: 1px solid #aaa;
 }
 .do-right-info{
-	padding-bottom: 20px;
+   padding-bottom: 20px;
 }
 .do-right-info span:last-child {
-	padding-left: 20px;
+   padding-left: 20px;
 }
 .do-context{
-	padding: 20px;
-	border-bottom: 1px solid #151534;
-	text-align: left;
+   padding: 20px;
+   border-bottom: 1px solid #151534;
+   text-align: left;
 }
-.do-context p {
-	margin: 30px 0;
-	min-height: 200px;
-	
+.do-context pre {
+   margin: 30px 0;
+   min-height: 200px;
+   white-space: pre-wrap;
 }
 .do-button{
-	padding: 50px 0px 0px 0px;
-	margin-bottom: 120px;
+   padding: 50px 0px 0px 0px;
+   margin-bottom: 120px;
 }
 .do-update,.do-del{
-	padding: 9px 33px;
-	background: #151534;
-	color: #fff;
-	font-weight: bold;
-	border: none;
+   padding: 9px 33px;
+   background: #151534;
+   color: #fff;
+   font-weight: bold;
+   border: none;
 }
 .do-update:hover, .do-del:hover{
-	background: #fc5b3a;
+   background: #fc5b3a;
 }
 /*-----------------------------------comment----------------------------*/
 
 .comment{
-	width: 800px;
-	height: 350px;
-	margin: 10px auto;
-	border: 1px solid #444;
-	border-radius: 3px;
-	margin-bottom: 50px;
+   width: 800px;
+   height: 350px;
+   margin: 10px auto;
+   border: 1px solid #444;
+   border-radius: 3px;
+   margin-bottom: 50px;
 
 }
 
 .full-comment{
-	margin-bottom: 100px;	
+   margin-bottom: 100px;   
 }
 
 .coment-head{
-	margin: 30px 60px;
-	font-size: 24px;
-	font-weight: bold;
+   margin: 30px 60px;
+   font-size: 24px;
+   font-weight: bold;
 }
 
 .comment-info{
-	width: 500px;
-	height: 30px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+   width: 500px;
+   height: 30px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
 
 .comment-info div input{
-	border: none;
-	border-bottom: 1px solid #aaa;
+   border: none;
+   border-bottom: 1px solid #aaa;
 }
 
 .comment-waring{
-	font-size: 14px;
-	color: #aaa;
-	margin-left: 200px;
+   font-size: 14px;
+   color: #aaa;
+   margin-left: 200px;
 }
 
 .comment-content{
-	width: 600px;
-	height: 100px;
-	margin: 0 auto;
-	margin-top: 20px;
-	display: flex;
-	flex-direction: row;
+   width: 600px;
+   height: 100px;
+   margin: 0 auto;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: row;
 }
 
 .comment-content span{
-	display: inline-block;
-	margin-top: 25px;
-	margin-left: 40px;
+   display: inline-block;
+   margin-top: 25px;
+   margin-left: 40px;
 }
 
 .comment-content textarea{
-	margin-left: 20px;
+   margin-left: 20px;
 }
 
 #commentok, #commentno{
-	padding: 7px 15px;
-	background: #eee;
-	border: none;
-	border-radius: 3px;
+   padding: 7px 15px;
+   background: #eee;
+   border: none;
+   border-radius: 3px;
 }
 
 #commentok:hover, 
 #commentno:hover{
-	background: #fc5b3a;
+   background: #fc5b3a;
 }
 
 .comment-button{
-	width: 180px;
-	height: 40px;
-	margin: 10px auto;
+   width: 180px;
+   height: 40px;
+   margin: 10px auto;
 }
 
 
@@ -160,51 +160,51 @@ body {
 /*-----------------------------------comment-list----------------------------*/
 
 .commentList{
-	width: 600px;
-	height: 150px;
-	border: 1px solid #999;
+   width: 600px;
+   height: 150px;
+   border: 1px solid #999;
 }
 
 .name{
-	display: inline-block;
-	height: 20px;
-	font-weight: bold;
-	padding: 10px;
+   display: inline-block;
+   height: 20px;
+   font-weight: bold;
+   padding: 10px;
 }
 
 .rdate{
-	display: inline-block;
-	height: 20px;
-	padding-left: 20px;
+   display: inline-block;
+   height: 20px;
+   padding-left: 20px;
 }
 
 .update {
-	float: right;
-	padding: 10px;
+   float: right;
+   padding: 10px;
 }
 
 .update a{
-	color: blue;
-	text-decoration: none;
+   color: blue;
+   text-decoration: none;
 }
 
 .content{
-	padding-top: 10px;
-	margin: 10px;
-	border-top: 1px dashed #ccc;
+   padding-top: 10px;
+   margin: 10px;
+   border-top: 1px dashed #ccc;
 }
 
 .comment-list-container{
-	width: 600px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: row;
+   width: 600px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
 }
 
 .arrow-turn-down-right{
-	width: 20px;
-	height: 100px;
-	font-size: 40px;
-	color: #000;
-	margin-right: 20px;
+   width: 20px;
+   height: 100px;
+   font-size: 40px;
+   color: #000;
+   margin-right: 20px;
 }
