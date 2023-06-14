@@ -18,12 +18,8 @@
 		</attributes>
 	</classpathentry>
 <<<<<<< HEAD
-<<<<<<< HEAD
 	<classpathentry kind="lib" path="/Users/chamyeongjin/Downloads/apache-tomcat-9.0.75/lib/servlet-api.jar"/>
 =======
 >>>>>>> branch 'main' of https://github.com/myeongjin123/withU.git
-=======
-	<classpathentry kind="lib" path="D:/hjw/apache-tomcat-9.0.75/lib/servlet-api.jar"/>
->>>>>>> parent of 1c39895 (web-inf lib servlet-api.jar add)
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
