@@ -107,7 +107,7 @@ ul.gnb-k li a:hover {
 }
 
 
-.regi:hover {
+.info:hover {
 	color: gray;
 }
 
@@ -145,7 +145,7 @@ ul.gnb-k li a:hover {
 }
 .log-main{
 	width: 450px;
-	height: 460px;
+	height: 370px;
     background: #fff;
     border-radius: 30px;
 }
@@ -162,6 +162,11 @@ ul.gnb-k li a:hover {
     font-weight: lighter;
     padding-bottom: 20px;
     margin: 0px;
+}
+.member .log-register a {
+    color: #000;
+    margin: 0;
+    margin-left: 260px;
 }
 .userid input,
 .pw input{
@@ -188,12 +193,28 @@ ul.gnb-k li a:hover {
 	background-color:rgb(235, 85, 55);
 	border: none;
 }
-.log-register{
+.joinBtn {
+    width: 350px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.member .joinBtn a {
+    margin: 0;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.log-infoster{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.member .log-register a{
+.member .log-infoster a{
     font-size: 14px;
     color: #777;
     padding-left: 50px;

@@ -64,26 +64,19 @@ String id = (String) session.getAttribute("sId");
 										<div class="pw">
 											<input type="password" name="password" placeholder="비밀번호">
 										</div>
+										<div class="log-register">
+											<a href="FindIdPw.jsp">ID/PW 찾기</a>
+										</div>
 										<div class="submit">
 											<input type="submit" name="submit" value="로그인">
 										</div>
 									</form>
-
-									<div class="log-register">
-
-										<a href="FindIdPw.jsp">ID/PW 찾기</a> <a href="register.jsp">회원 가입</a>
+										
+									<div class="joinBtn">
+										<a href="register.jsp">회원 가입</a>
 									</div>
-
-									<p class="log-explain">소설 계정으로 게스트 로그인</p>
-									<form action="kakaoCheck.jsp">
-										<div class="log-sns">
-											<div class="kakao">
-												<a href="javascript:kakaoLogin()" id="kakao-login-btn">
-													<img src="images/kakao_login_large_wide.png" />
-												</a>
-											</div>
-										</div>
-									</form>
+									
+									 
 								</div>
 							</div>
 						</div>
