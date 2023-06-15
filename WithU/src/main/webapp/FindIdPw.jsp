@@ -1,10 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="css/findIdPw.css">
-<body>
+
 <jsp:include page="/include/header.jsp"></jsp:include>
+<link rel="stylesheet" href="css/findIdPw.css">
+
 	<div class="container-find">
 		<div class="row-find">
 			<img alt="logotitle" src="images/logotitle.png">

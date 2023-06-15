@@ -1,9 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" 
 pageEncoding="UTF-8" %>
-<link rel="stylesheet" href="css/register.css">
-
 
 <jsp:include page="/include/header.jsp"></jsp:include>
+<link rel="stylesheet" href="css/register.css">
 
     <div class="container">
         <h1 class="reg-title">회원가입</h1>

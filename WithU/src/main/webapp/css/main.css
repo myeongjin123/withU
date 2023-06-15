@@ -164,6 +164,9 @@ video {
     font-weight: 400;
 	color: rgb(235, 85, 55);
 }
+.do-item {
+	width: 310px;
+}
 .do-item p {
     line-height: 30px;
     font-weight: 700;

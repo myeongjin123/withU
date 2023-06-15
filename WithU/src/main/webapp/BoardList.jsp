@@ -2,18 +2,10 @@
     pageEncoding="UTF-8"%>
 <%@page import="board.BoardBean"%>
 <%@page import="java.util.Vector"%>
-<%@page import="board.BoardDAO"%><%-- 
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %> --%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="css/boardlist.css">
-</head>
-<body>
+<%@page import="board.BoardDAO"%>
+
 <jsp:include page="/include/header.jsp"></jsp:include>
+<link rel="stylesheet" href="css/boardlist.css">
 
 <div class="body">
 	<%

@@ -4,10 +4,6 @@
     pageEncoding="UTF-8" session="true" %>
 <% request.setCharacterEncoding("UTF-8"); %>
 
-<%-- <jsp:useBean id = "user" class = "userdb.UserBean" scope ="page">
-<jsp:setProperty name = "user" property = "*" />
-</jsp:useBean> --%>
-
 
 <%
 	//로그인된 유저는 회원가입 페이지 못 들어감

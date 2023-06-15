@@ -1,9 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <jsp:include page="/include/header.jsp"></jsp:include>
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/developer.css">
+    
+<jsp:include page="/include/header.jsp"></jsp:include>
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/developer.css">
+
 				<div class="first">
                         <div class="container-k">
                 <div class="title ani_fadeInDown aniUtil_active">
@@ -182,9 +184,7 @@
                             <a href="https://www.instagram.com/noey_od1002/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="#" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
+                            
                         </div>
                     </div>
                    
@@ -257,12 +257,6 @@
                         <div class="quick">
                             <a href="https://github.com/jeon00000" target="_blank">
                                 <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="#" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="#" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
                             </a>
                         </div>
                     </div>
@@ -344,9 +338,6 @@
                             <a href="https://www.instagram.com/novennbereight/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="#" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
                         </div>
                     </div>
                     <div class="content col-6 col-md-12">
@@ -422,9 +413,6 @@
                             </a>
                             <a href="https://www.instagram.com/alicehong0949/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="#" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
                             </a>
                         </div>
                     </div>

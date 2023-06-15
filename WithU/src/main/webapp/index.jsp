@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <link rel="stylesheet" href="css/main.css">
+    
 <jsp:include page="/include/header.jsp"></jsp:include>
+<link rel="stylesheet" href="css/main.css">
 
 
         <div class="banner-k">

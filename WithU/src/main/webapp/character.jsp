@@ -1,7 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <link rel="stylesheet" href="css/character.css">
+    
 <jsp:include page="/include/header.jsp"></jsp:include>
+<link rel="stylesheet" href="css/character.css">
+
 <div class="k-box">
             <ul class="tab_title">
                 <li class="on">
