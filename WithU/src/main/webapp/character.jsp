@@ -20,7 +20,7 @@
                 </li>
                 <li>
                   <img src="images/ra.png" alt="ra">
-                  애체멜 (HTML)
+                  에체멜 (HTML)
                 </li>
                 <li>
                   <img src="images/rb.png" alt="rb">

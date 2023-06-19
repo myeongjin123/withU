@@ -6,7 +6,7 @@
 
 
         <div class="banner-k">
-            <video src="images/-82659.mp4" autoplay loop muted></video>
+            <img class="mainBack" src="./images/mainBackground.png">
             <div class="textbox-k">
                 <h1>Let's Start Game!!!</h1>
                 <p>Once upon a time, in a vast galaxy, animals embarked on a cosmic quest for new planet. <br />
@@ -44,12 +44,12 @@
             <div class="do-ppr">
                 <div class="do-img">
                     <div class="do-slide">
-                        <img src="images/강우성.jpg" alt="강우성">
-                        <img src="images/김도연.jpg" alt="김도연">
-                        <img src="images/전여경.jpg" alt="전여경">
-                        <img src="images/차명진.jpg" alt="차명진">
-                        <img src="images/최누리.jpg" alt="최누리">
-                        <img src="images/홍정원.jpg" alt="홍정원">
+                        <img src="images/kang.png" alt="kang">
+                        <img src="images/kim.jpg" alt="kim">
+                        <img src="images/jeon.jpg" alt="jeon">
+                        <img src="images/cha.jpg" alt="cha">
+                        <img src="images/choi.jpg" alt="choi">
+                        <img src="images/hong.jpg" alt="hong">
                     </div>
                 </div>
             

@@ -175,7 +175,7 @@ function render(){
     ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
     ctx.drawImage(animalImage, animalX, animalY);
     ctx.fillText(`Score:${score}`, 20, 20);
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "white";
     ctx.font = "16px Arial";
 
     for(let i = 0; i<bulletList.length; i++){

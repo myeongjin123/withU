@@ -7,7 +7,7 @@
     position: relative;
 }
 
-video {
+.mainBack {
     width: 100%;
 } 
 
@@ -15,8 +15,10 @@ video {
     position: absolute;
     color: #fff;
     text-align: center;
-    top: 30%;
-    left: 11%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1400px;
 }
 
 .textbox-k h1 {

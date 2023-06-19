@@ -17,12 +17,12 @@ public class UserDAO {
 
 	public void getCon() {
 		try {
-			String id = "root";
-			String pass = "!+(Ye:m6V;t;";
-			String url = "jdbc:mysql://13.124.74.6:3306/withu";
+			String dbID = "withuxxtx";
+	        String dbPassword = "Ezen123!!";
+	        String dbURL = "jdbc:mysql://183.111.199.216:3306/withuxxtx";
 
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection(url, id, pass);
+			con = DriverManager.getConnection(dbURL, dbID, dbPassword);
 			System.out.println("성공");
 		} catch (Exception e) {
 			e.printStackTrace();

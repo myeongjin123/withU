@@ -13,16 +13,13 @@
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/차명진.jpg" alt="img1" id="pic">
+                        <img src="images/cha.jpg" alt="img1" id="pic">
                         <div class="quick">
                             <a href="https://github.com/myeongjin123" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                             <a href="https://www.instagram.com/__myeongjin__99/" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=100008867550225" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
                             </a>
                         </div>
                     </div>
@@ -39,6 +36,8 @@
                             <p>
                                이 프로젝트를 통하여 전반적인 <span>JSP</span>의 사용법과 효용성을 알 수 있었고 팀원들과의 <span>소통</span>과 <span>협업</span>의 중요성을 깨달았습니다.
                             </p>
+                            <p>최종적으로 <span>cafe24</span>를 이용하여 <span>호스팅</span>하였고 develop을 하고자 google form을 사용해 사용자들에게<br>
+                             <span>설문조사</span>를 받았습니다.</p> 
                            
                             
                         </div>
@@ -92,7 +91,7 @@
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/myimg.png" alt="img1">
+                        <img src="images/kang.png" alt="img1">
                         <div class="quick">
                             <a href="https://github.com/rkddntjd7" target="_blank">
                                 <i class="fa-brands fa-github"></i>
@@ -108,7 +107,7 @@
                     <div class="content col-6 col-md-12">
                         <div class="top-content">
                         	<p>
-                        		프론트앤드 부분과 백앤드 부분을 둘 다 수행하며 많은 경험을 쌓을 수 있었습니다.
+                        		프론트엔드 부분과 백엔드 부분을 둘 다 수행하며 많은 경험을 쌓을 수 있었습니다.
                         	</p>
                             <p>
                                 프론트 부분으로는 <span>html, css, javascript </span> 를 사용하여 메인페이지 헤더, 배너 부분 및 개발자 소개, <br />
@@ -117,7 +116,7 @@
 
                             </p>
                             <p>
-                               백 엔드 부분으로는 <span>jsp</span>를 활용하여 session을 이용한 로그인, 로그아웃 기능을 구현하였고 <br />
+                               백엔드 부분으로는 <span>jsp</span>를 활용하여 session을 이용한 로그인, 로그아웃 기능을 구현하였고 <br />
                                세부적으로는 아이디와 비밀번호 찾기 기능을 제작하였습니다. 
                             </p>
                             <p>
@@ -176,7 +175,7 @@
                 <div class="row">
                     
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/김도연.jpg" alt="img2" id="pic">
+                        <img src="images/kim.jpg" alt="img2" id="pic">
                         <div class="quick">
                             <a href="https://github.com/K-DoYeon" target="_blank">
                                 <i class="fa-brands fa-github"></i>
@@ -194,7 +193,7 @@
                                 풀스택 XXTX 스터디원들과 함께 협업하며 JS와 CSS를 적극 활용하고 응용하며 웹팀 메인의 바텀과 풋터,로그인,게시판 파트의 UI&UX를 고민하며 <span>직접 디자인</span> 하였습니다.
                             </p>
                             <p>
-                               뿐만아니라 백 엔드 게시판 파트를 맡아 게시판의 여러가지 기능을 구현하였고, <span>JSP와 Servlet</span>용하여 게시판 기능을 Control 하였습니다.
+                               뿐만아니라 백엔드 게시판 파트를 맡아 게시판의 여러가지 기능을 구현하였고, <span>JSP와 Servlet</span>을 이용하여 게시판 기능을 Control 하였습니다.
 
                             </p>
                             <p>
@@ -253,7 +252,7 @@
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/전여경.jpg" alt="img1" id="pic">
+                        <img src="images/jeon.jpg" alt="img1" id="pic">
                         <div class="quick">
                             <a href="https://github.com/jeon00000" target="_blank">
                                 <i class="fa-brands fa-github"></i>
@@ -300,7 +299,7 @@
                                 <div class="row">
                                     <i class="fa-solid fa-location-dot"></i>
                                     <span>주소지 :</span>
-                                    <p>경기도 김포 사우동</p>
+                                    <p>경기도 김포 북변동</p>
                                 </div>
                             </li>
                             <li>
@@ -330,7 +329,7 @@
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/최누리.jpg" alt="img1" id="pic">
+                        <img src="images/choi.jpg" alt="img1" id="pic">
                         <div class="quick">
                             <a href="https://github.com/chlsnfl" target="_blank">
                                 <i class="fa-brands fa-github"></i>
@@ -350,7 +349,7 @@
                                 또한 <span>랜덤을 이용한</span> 적군의 움직임과 갯수, 그리고 적군을 놓치면 게임이 끝나도록 제작하였습니다.
                             </p>
                             <p>
-                                백앤드 작업으로는 <span>회원 가입 정보가 데이터베이스로 넘어가는 작업</span>을 진행하였습니다.
+                                백엔드 작업으로는 <span>회원 가입 정보가 데이터베이스로 넘어가는 작업</span>을 진행하였습니다.
                             </p>
                             <p>
                             
@@ -406,7 +405,7 @@
                 </div>
                 <div class="row">
                     <div class="imgbox col-6 col-md-12">
-                        <img src="images/홍정원.jpg" alt="img1" id="pic">
+                        <img src="images/hong.jpg" alt="img1" id="pic">
                         <div class="quick">
                             <a href="https://github.com/jeoungwonhong" target="_blank">
                                 <i class="fa-brands fa-github"></i>
@@ -424,11 +423,11 @@
                         	</p>
                             <p>
                                 카드뒤집기게임는 <span>랜덤으로 섞인</span> 카드들을 페어를 맞추는 게임으로 단계가 올라갈수록
-                                <br />시간제한이 5초씩 구현하였고, <span>kakao api</span>를 활용한 로그인, 로그아웃을 제작하였습니다. 
+                                <br />시간제한이 5초씩 구현하였고, 로그인, 로그아웃을 제작하였습니다. 
                             </p>
                             <p>
                                 익숙하지 않았던 <span>AWS</span>를 접목하여 새로운 시도를 해볼수 있는 기회가 되었고<br />
-                                완벽하지 않았던 <span>Git</span>의 새로운 기능들과 방버들을 알게되는 기회였습니다.
+                                완벽하지 않았던 <span>Git</span>의 새로운 기능들과 방법들을 알게되는 기회였습니다.
                             </p>
                         </div>
                         <ul>

@@ -10,9 +10,9 @@ public class DBConn {
 	public static Connection getMySqlConnection() {
 		Connection conn = null;
 		try {
-			String dbID = "root";
-	        String dbPassword = "!+(Ye:m6V;t;";
-	        String dbURL = "jdbc:mysql://13.124.74.6:3306/withu";
+			String dbID = "withuxxtx";
+	        String dbPassword = "Ezen123!!";
+	        String dbURL = "jdbc:mysql://183.111.199.216:3306/withuxxtx";
 
 
 			Class.forName("com.mysql.cj.jdbc.Driver");
