@@ -23,12 +23,12 @@
 <br />
 
 ## 👨‍👩‍👧‍👦 구성원
-- 강우성 <https://github.com/rkddntjd7>
-- 김도연 <https://github.com/K-DoYeon>
-- 전여경 <https://github.com/Jeon00000>
-- 차명진 <https://github.com/myeongjin123>
-- 최누리 <https://github.com/chlsnfl>
-- 홍정원 <https://github.com/jeoungwonhong>
+- <b>차명진</b> (팀장) <https://github.com/myeongjin123>
+- 강우성 (팀원) <https://github.com/rkddntjd7>
+- 김도연 (팀원) <https://github.com/K-DoYeon>
+- 전여경 (팀원) <https://github.com/Jeon00000>
+- 최누리 (팀원) <https://github.com/chlsnfl>
+- 홍정원 (팀원) <https://github.com/jeoungwonhong>
 
 <br />
 <br />
@@ -50,6 +50,38 @@
 
 <br />
 <br />
+
+##역할 분담
+- 차명진
+    - 웹팀 (메인 배너 슬라이드 구현)
+    - 회원가입 기능 구현 (아이디 중복 검사, 우편번호 검사)
+    <br />
+- 강우성
+    - 웹팀 (헤더, 메인 배너, 캐릭터 소개 페이지, 개발자 소개 구현)
+    - 로그인 기능, 아이디 비밀번호 찾기 구현
+    <br />
+- 김도연
+    - 웹팀 (메인 바텀, 푸터, 로그인 페이지 구현)
+    - 게시판 (글쓰기, 수정, 삭제, 읽기 구현)
+    <br />
+
+- 전여경
+    - 게임팀 (슈팅 게임 구현)
+    - 게시판 (페이지네이션, 검색, 리스트, 댓글 구현)
+    - 회원가입 페이지 구현
+    <br />
+
+- 최누리
+    - 게임팀 (슈팅 게임 구현)
+    - 게임 페이지 구현
+    - 회원가입 기능 구현
+   <br />
+
+- 홍정원
+    - 게임팀 (캐릭터 디자인, 카드 뒤집기 게임 구현)
+    - 로그인 기능 구현
+   
+
 
 ## 📚 상세보기
 [ <https://www.notion.so/product> ]
