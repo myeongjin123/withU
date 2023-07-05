@@ -34,3 +34,6 @@
 
 <img width="700" alt="스크린샷 2023-07-05 오전 11 22 02" src="https://github.com/myeongjin123/withU/assets/125331795/cff3ba23-50db-4f91-b69f-9a49aecc39cf">  <br /> 
 
+## 📚 상세보기
+[ <https://www.notion.so/product> ]
+
